@@ -7,3 +7,4 @@ git commit -m "Deploy history changed"
 git add -A
 git commit -m "Updated to %2"
 git push
+echo Complete.

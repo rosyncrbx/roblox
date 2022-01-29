@@ -2095,6 +2095,12 @@
             "Name": "string"
         }
     },
+    "CrossDMScriptChangeListener": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "CustomEvent": {
         "Name": {
             "Category": "Primitive",
@@ -2389,6 +2395,12 @@
         "IsPaused": {
             "Category": "Primitive",
             "Name": "bool"
+        }
+    },
+    "LocalDebuggerConnection": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "DebuggerConnectionManager": {

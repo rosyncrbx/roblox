@@ -965,12 +965,6 @@
             "Name": "string"
         }
     },
-    "CSGCacheService": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
-        }
-    },
     "CacheableContentProvider": {
         "Name": {
             "Category": "Primitive",
@@ -2095,6 +2089,12 @@
             "Name": "string"
         }
     },
+    "CrossDMScriptChangeListener": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "CustomEvent": {
         "Name": {
             "Category": "Primitive",
@@ -2389,6 +2389,12 @@
         "IsPaused": {
             "Category": "Primitive",
             "Name": "bool"
+        }
+    },
+    "LocalDebuggerConnection": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "DebuggerConnectionManager": {
@@ -5379,6 +5385,12 @@
             "Name": "string"
         }
     },
+    "LSPService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "LanguageService": {
         "Name": {
             "Category": "Primitive",
@@ -5876,7 +5888,15 @@
             "Category": "Class",
             "Name": "MaterialVariant"
         },
+        "TerrainSlate": {
+            "Category": "Class",
+            "Name": "MaterialVariant"
+        },
         "TerrainSnow": {
+            "Category": "Class",
+            "Name": "MaterialVariant"
+        },
+        "TerrainWoodPlanks": {
             "Category": "Class",
             "Name": "MaterialVariant"
         },
@@ -6919,6 +6939,10 @@
         "FilteringEnabled": {
             "Category": "Primitive",
             "Name": "bool"
+        },
+        "GlobalWind": {
+            "Category": "DataType",
+            "Name": "Vector3"
         },
         "Gravity": {
             "Category": "Primitive",

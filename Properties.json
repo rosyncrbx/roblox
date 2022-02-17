@@ -145,6 +145,12 @@
             "Name": "string"
         }
     },
+    "AnimationFromVideoCreatorStudioService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "AnimationRigData": {
         "Name": {
             "Category": "Primitive",
@@ -5037,6 +5043,28 @@
             "Name": "string"
         }
     },
+    "ImporterMaterialSettings": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "DiffuseFilePath": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "MetalnessFilePath": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "NormalFilePath": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "RoughnessFilePath": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "ImporterMeshSettings": {
         "Name": {
             "Category": "Primitive",
@@ -5900,6 +5928,10 @@
             "Category": "Class",
             "Name": "MaterialVariant"
         },
+        "Use2022Materials": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "Wood": {
             "Category": "Class",
             "Name": "MaterialVariant"
@@ -6229,14 +6261,6 @@
             "Name": "bool"
         },
         "ShowActiveAnimationAsset": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
-        "TrackDataTypes": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
-        "TrackPhysicsDetails": {
             "Category": "Primitive",
             "Name": "bool"
         }
@@ -6967,6 +6991,10 @@
         "PhysicsSteppingMethod": {
             "Category": "Enum",
             "Name": "PhysicsSteppingMethod"
+        },
+        "ReplicateInstanceDestroySetting": {
+            "Category": "Enum",
+            "Name": "ReplicateInstanceDestroySetting"
         },
         "Retargeting": {
             "Category": "Enum",
@@ -8490,6 +8518,18 @@
         }
     },
     "ScriptChangeService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "ScriptCloneWatcher": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "ScriptCloneWatcherHelper": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -10049,6 +10089,12 @@
             "Name": "string"
         }
     },
+    "StudioHighDpiService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "StudioPublishService": {
         "Name": {
             "Category": "Primitive",
@@ -10343,10 +10389,122 @@
             "Name": "string"
         }
     },
+    "TextChatCommand": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "PrimaryAlias": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "SecondaryAlias": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "TextChatConfigurations": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "ChatInputBarConfiguration": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "TargetTextChannel": {
+            "Category": "Class",
+            "Name": "TextChannel"
+        }
+    },
+    "ChatWindowConfiguration": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        }
+    },
+    "TextChatMessage": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "MessageId": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Metadata": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "PrefixText": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Status": {
+            "Category": "Enum",
+            "Name": "TextChatMessageStatus"
+        },
+        "Text": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "TextChannel": {
+            "Category": "Class",
+            "Name": "TextChannel"
+        },
+        "TextSource": {
+            "Category": "Class",
+            "Name": "TextSource"
+        },
+        "Timestamp": {
+            "Category": "DataType",
+            "Name": "DateTime"
+        }
+    },
+    "TextChatMessageProperties": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "PrefixText": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Text": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "TextChatService": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "ChatVersion": {
+            "Category": "Enum",
+            "Name": "ChatVersion"
+        },
+        "CreateDefaultCommands": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CreateDefaultTextChannels": {
+            "Category": "Primitive",
+            "Name": "bool"
         }
     },
     "TextFilterResult": {
@@ -11330,6 +11488,12 @@
         }
     },
     "VirtualUser": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "VisibilityService": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"

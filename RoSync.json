@@ -1,0 +1,3671 @@
+{
+    "Instance": {
+        "Name": 0,
+        "Archivable": 0,
+        "SourceAssetId": 0,
+        "archivable": 0
+    },
+    "Accoutrement": {
+        "Name": 0,
+        "AttachmentForward": 0,
+        "AttachmentPoint": 0,
+        "AttachmentPos": 0,
+        "AttachmentRight": 0,
+        "AttachmentUp": 0
+    },
+    "Accessory": {
+        "Name": 0,
+        "AccessoryType": 0
+    },
+    "Hat": {
+        "Name": 0
+    },
+    "AdvancedDragger": {
+        "Name": 0
+    },
+    "Animation": {
+        "Name": 0,
+        "AnimationId": 0
+    },
+    "AnimationClip": {
+        "Name": 0,
+        "Loop": 0,
+        "Priority": 0
+    },
+    "CurveAnimation": {
+        "Name": 0
+    },
+    "KeyframeSequence": {
+        "Name": 0,
+        "AuthoredHipHeight": 0
+    },
+    "AnimationController": {
+        "Name": 0
+    },
+    "AnimationRigData": {
+        "Name": 0
+    },
+    "AnimationTrack": {
+        "Name": 0,
+        "Animation": 0,
+        "IsPlaying": 0,
+        "Length": 0,
+        "Looped": 0,
+        "Priority": 0,
+        "Speed": 0,
+        "TimePosition": 0,
+        "WeightCurrent": 0,
+        "WeightTarget": 0
+    },
+    "Animator": {
+        "Name": 0
+    },
+    "AssetDeliveryProxy": {
+        "Name": 0
+    },
+    "Atmosphere": {
+        "Name": 0,
+        "Color": 0,
+        "Decay": 0,
+        "Density": 0,
+        "Glare": 0,
+        "Haze": 0,
+        "Offset": 0
+    },
+    "Attachment": {
+        "Name": 0,
+        "Axis": 0,
+        "CFrame": 0,
+        "Orientation": 0,
+        "Position": 0,
+        "Rotation": 0,
+        "SecondaryAxis": 0,
+        "Visible": 0,
+        "WorldAxis": 0,
+        "WorldCFrame": 0,
+        "WorldOrientation": 0,
+        "WorldPosition": 0,
+        "WorldRotation": 0,
+        "WorldSecondaryAxis": 0
+    },
+    "Bone": {
+        "Name": 0,
+        "IsCFrameDriven": 0,
+        "Transform": 0,
+        "TransformedCFrame": 0
+    },
+    "Backpack": {
+        "Name": 0
+    },
+    "BackpackItem": {
+        "Name": 0,
+        "TextureId": 0
+    },
+    "HopperBin": {
+        "Name": 0,
+        "Active": 0,
+        "BinType": 0
+    },
+    "Tool": {
+        "Name": 0,
+        "CanBeDropped": 0,
+        "Enabled": 0,
+        "Grip": 0,
+        "GripForward": 0,
+        "GripPos": 0,
+        "GripRight": 0,
+        "GripUp": 0,
+        "ManualActivationOnly": 0,
+        "RequiresHandle": 0,
+        "ToolTip": 0
+    },
+    "Flag": {
+        "Name": 0,
+        "TeamColor": 0
+    },
+    "BasePlayerGui": {
+        "Name": 0
+    },
+    "CoreGui": {
+        "Name": 0,
+        "SelectionImageObject": 0,
+        "Version": 0
+    },
+    "PlayerGui": {
+        "Name": 0,
+        "CurrentScreenOrientation": 0,
+        "ScreenOrientation": 0,
+        "SelectionImageObject": 0
+    },
+    "StarterGui": {
+        "Name": 0,
+        "ProcessUserInput": 0,
+        "ResetPlayerGuiOnSpawn": 0,
+        "ScreenOrientation": 0,
+        "ShowDevelopmentGui": 0,
+        "VirtualCursorMode": 0
+    },
+    "BaseWrap": {
+        "Name": 0,
+        "CageMeshId": 0,
+        "CageOrigin": 0,
+        "CageOriginWorld": 0,
+        "HSRAssetId": 0,
+        "ImportOrigin": 0,
+        "ImportOriginWorld": 0
+    },
+    "WrapLayer": {
+        "Name": 0,
+        "BindOffset": 0,
+        "Color": 0,
+        "DebugMode": 0,
+        "Enabled": 0,
+        "Order": 0,
+        "Puffiness": 0,
+        "ReferenceMeshId": 0,
+        "ReferenceOrigin": 0,
+        "ReferenceOriginWorld": 0,
+        "ShrinkFactor": 0
+    },
+    "WrapTarget": {
+        "Name": 0,
+        "Color": 0,
+        "DebugMode": 0,
+        "Stiffness": 0
+    },
+    "Beam": {
+        "Name": 0,
+        "Attachment0": 0,
+        "Attachment1": 0,
+        "Brightness": 0,
+        "Color": 0,
+        "CurveSize0": 0,
+        "CurveSize1": 0,
+        "Enabled": 0,
+        "FaceCamera": 0,
+        "LightEmission": 0,
+        "LightInfluence": 0,
+        "Segments": 0,
+        "Texture": 0,
+        "TextureLength": 0,
+        "TextureMode": 0,
+        "TextureSpeed": 0,
+        "Transparency": 0,
+        "Width0": 0,
+        "Width1": 0,
+        "ZOffset": 0
+    },
+    "BindableEvent": {
+        "Name": 0
+    },
+    "BindableFunction": {
+        "Name": 0
+    },
+    "BodyMover": {
+        "Name": 0
+    },
+    "BodyAngularVelocity": {
+        "Name": 0,
+        "AngularVelocity": 0,
+        "MaxTorque": 0,
+        "P": 0,
+        "angularvelocity": 0,
+        "maxTorque": 0
+    },
+    "BodyForce": {
+        "Name": 0,
+        "Force": 0,
+        "force": 0
+    },
+    "BodyGyro": {
+        "Name": 0,
+        "CFrame": 0,
+        "D": 0,
+        "MaxTorque": 0,
+        "P": 0,
+        "cframe": 0,
+        "maxTorque": 0
+    },
+    "BodyPosition": {
+        "Name": 0,
+        "D": 0,
+        "MaxForce": 0,
+        "P": 0,
+        "Position": 0,
+        "maxForce": 0,
+        "position": 0
+    },
+    "BodyThrust": {
+        "Name": 0,
+        "Force": 0,
+        "Location": 0,
+        "force": 0,
+        "location": 0
+    },
+    "BodyVelocity": {
+        "Name": 0,
+        "MaxForce": 0,
+        "P": 0,
+        "Velocity": 0,
+        "maxForce": 0,
+        "velocity": 0
+    },
+    "RocketPropulsion": {
+        "Name": 0,
+        "CartoonFactor": 0,
+        "MaxSpeed": 0,
+        "MaxThrust": 0,
+        "MaxTorque": 0,
+        "Target": 0,
+        "TargetOffset": 0,
+        "TargetRadius": 0,
+        "ThrustD": 0,
+        "ThrustP": 0,
+        "TurnD": 0,
+        "TurnP": 0
+    },
+    "Breakpoint": {
+        "Name": 0,
+        "Condition": 0,
+        "ContinueExecution": 0,
+        "Enabled": 0,
+        "Id": 0,
+        "Line": 0,
+        "LogMessage": 0,
+        "MetaBreakpointId": 0,
+        "Script": 0,
+        "Verified": 0
+    },
+    "BreakpointManager": {
+        "Name": 0
+    },
+    "Camera": {
+        "Name": 0,
+        "CameraSubject": 0,
+        "CameraType": 0,
+        "FieldOfView": 0,
+        "FieldOfViewMode": 0,
+        "HeadLocked": 0,
+        "HeadScale": 0,
+        "ViewportSize": 0,
+        "focus": 0
+    },
+    "CharacterAppearance": {
+        "Name": 0
+    },
+    "BodyColors": {
+        "Name": 0,
+        "HeadColor": 0,
+        "HeadColor3": 0,
+        "LeftArmColor": 0,
+        "LeftArmColor3": 0,
+        "LeftLegColor": 0,
+        "LeftLegColor3": 0,
+        "RightArmColor": 0,
+        "RightArmColor3": 0,
+        "RightLegColor": 0,
+        "RightLegColor3": 0,
+        "TorsoColor": 0,
+        "TorsoColor3": 0
+    },
+    "CharacterMesh": {
+        "Name": 0,
+        "BaseTextureId": 0,
+        "BodyPart": 0,
+        "MeshId": 0,
+        "OverlayTextureId": 0
+    },
+    "Clothing": {
+        "Name": 0,
+        "Color3": 0
+    },
+    "Pants": {
+        "Name": 0,
+        "PantsTemplate": 0
+    },
+    "Shirt": {
+        "Name": 0,
+        "ShirtTemplate": 0
+    },
+    "ShirtGraphic": {
+        "Name": 0,
+        "Color3": 0,
+        "Graphic": 0
+    },
+    "Skin": {
+        "Name": 0,
+        "SkinColor": 0
+    },
+    "Chat": {
+        "Name": 0,
+        "BubbleChatEnabled": 0,
+        "LoadDefaultChat": 0
+    },
+    "ClickDetector": {
+        "Name": 0,
+        "CursorIcon": 0,
+        "MaxActivationDistance": 0
+    },
+    "Clouds": {
+        "Name": 0,
+        "Color": 0,
+        "Cover": 0,
+        "Density": 0,
+        "Enabled": 0
+    },
+    "ClusterPacketCache": {
+        "Name": 0
+    },
+    "CommandInstance": {
+        "Name": 0,
+        "AllowGUIAccessPoints": 0,
+        "Checked": 0,
+        "DefaultShortcut": 0,
+        "DisplayName": 0,
+        "Enabled": 0,
+        "Icon": 0,
+        "Permission": 0,
+        "StatusTip": 0
+    },
+    "Configuration": {
+        "Name": 0
+    },
+    "Constraint": {
+        "Name": 0,
+        "Active": 0,
+        "Attachment0": 0,
+        "Attachment1": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "Visible": 0
+    },
+    "AlignOrientation": {
+        "Name": 0,
+        "AlignType": 0,
+        "CFrame": 0,
+        "MaxAngularVelocity": 0,
+        "MaxTorque": 0,
+        "Mode": 0,
+        "PrimaryAxis": 0,
+        "PrimaryAxisOnly": 0,
+        "ReactionTorqueEnabled": 0,
+        "Responsiveness": 0,
+        "RigidityEnabled": 0,
+        "SecondaryAxis": 0
+    },
+    "AlignPosition": {
+        "Name": 0,
+        "ApplyAtCenterOfMass": 0,
+        "MaxForce": 0,
+        "MaxVelocity": 0,
+        "Mode": 0,
+        "Position": 0,
+        "ReactionForceEnabled": 0,
+        "Responsiveness": 0,
+        "RigidityEnabled": 0
+    },
+    "AngularVelocity": {
+        "Name": 0,
+        "AngularVelocity": 0,
+        "MaxTorque": 0,
+        "ReactionTorqueEnabled": 0,
+        "RelativeTo": 0
+    },
+    "BallSocketConstraint": {
+        "Name": 0,
+        "LimitsEnabled": 0,
+        "MaxFrictionTorque": 0,
+        "Radius": 0,
+        "Restitution": 0,
+        "TwistLimitsEnabled": 0,
+        "TwistLowerAngle": 0,
+        "TwistUpperAngle": 0,
+        "UpperAngle": 0
+    },
+    "HingeConstraint": {
+        "Name": 0,
+        "ActuatorType": 0,
+        "AngularResponsiveness": 0,
+        "AngularSpeed": 0,
+        "AngularVelocity": 0,
+        "CurrentAngle": 0,
+        "LimitsEnabled": 0,
+        "LowerAngle": 0,
+        "MotorMaxAcceleration": 0,
+        "MotorMaxTorque": 0,
+        "Radius": 0,
+        "Restitution": 0,
+        "ServoMaxTorque": 0,
+        "TargetAngle": 0,
+        "UpperAngle": 0
+    },
+    "LineForce": {
+        "Name": 0,
+        "ApplyAtCenterOfMass": 0,
+        "InverseSquareLaw": 0,
+        "Magnitude": 0,
+        "MaxForce": 0,
+        "ReactionForceEnabled": 0
+    },
+    "LinearVelocity": {
+        "Name": 0,
+        "LineDirection": 0,
+        "LineVelocity": 0,
+        "MaxForce": 0,
+        "PlaneVelocity": 0,
+        "PrimaryTangentAxis": 0,
+        "RelativeTo": 0,
+        "SecondaryTangentAxis": 0,
+        "VectorVelocity": 0,
+        "VelocityConstraintMode": 0
+    },
+    "Plane": {
+        "Name": 0
+    },
+    "RigidConstraint": {
+        "Name": 0,
+        "Broken": 0,
+        "DestructionEnabled": 0,
+        "DestructionForce": 0,
+        "DestructionTorque": 0
+    },
+    "RodConstraint": {
+        "Name": 0,
+        "CurrentDistance": 0,
+        "Length": 0,
+        "LimitAngle0": 0,
+        "LimitAngle1": 0,
+        "LimitsEnabled": 0,
+        "Thickness": 0
+    },
+    "RopeConstraint": {
+        "Name": 0,
+        "CurrentDistance": 0,
+        "Length": 0,
+        "Restitution": 0,
+        "Thickness": 0,
+        "WinchEnabled": 0,
+        "WinchForce": 0,
+        "WinchResponsiveness": 0,
+        "WinchSpeed": 0,
+        "WinchTarget": 0
+    },
+    "SlidingBallConstraint": {
+        "Name": 0,
+        "ActuatorType": 0,
+        "CurrentPosition": 0,
+        "LimitsEnabled": 0,
+        "LinearResponsiveness": 0,
+        "LowerLimit": 0,
+        "MotorMaxAcceleration": 0,
+        "MotorMaxForce": 0,
+        "Restitution": 0,
+        "ServoMaxForce": 0,
+        "Size": 0,
+        "Speed": 0,
+        "TargetPosition": 0,
+        "UpperLimit": 0,
+        "Velocity": 0
+    },
+    "CylindricalConstraint": {
+        "Name": 0,
+        "AngularActuatorType": 0,
+        "AngularLimitsEnabled": 0,
+        "AngularResponsiveness": 0,
+        "AngularRestitution": 0,
+        "AngularSpeed": 0,
+        "AngularVelocity": 0,
+        "CurrentAngle": 0,
+        "InclinationAngle": 0,
+        "LowerAngle": 0,
+        "MotorMaxAngularAcceleration": 0,
+        "MotorMaxTorque": 0,
+        "RotationAxisVisible": 0,
+        "ServoMaxTorque": 0,
+        "TargetAngle": 0,
+        "UpperAngle": 0,
+        "WorldRotationAxis": 0
+    },
+    "PrismaticConstraint": {
+        "Name": 0
+    },
+    "SpringConstraint": {
+        "Name": 0,
+        "Coils": 0,
+        "CurrentLength": 0,
+        "Damping": 0,
+        "FreeLength": 0,
+        "LimitsEnabled": 0,
+        "MaxForce": 0,
+        "MaxLength": 0,
+        "MinLength": 0,
+        "Radius": 0,
+        "Stiffness": 0,
+        "Thickness": 0
+    },
+    "Torque": {
+        "Name": 0,
+        "RelativeTo": 0,
+        "Torque": 0
+    },
+    "TorsionSpringConstraint": {
+        "Name": 0,
+        "Coils": 0,
+        "CurrentAngle": 0,
+        "Damping": 0,
+        "LimitEnabled": 0,
+        "LimitsEnabled": 0,
+        "MaxAngle": 0,
+        "MaxTorque": 0,
+        "Radius": 0,
+        "Restitution": 0,
+        "Stiffness": 0
+    },
+    "UniversalConstraint": {
+        "Name": 0,
+        "LimitsEnabled": 0,
+        "MaxAngle": 0,
+        "Radius": 0,
+        "Restitution": 0
+    },
+    "VectorForce": {
+        "Name": 0,
+        "ApplyAtCenterOfMass": 0,
+        "Force": 0,
+        "RelativeTo": 0
+    },
+    "Controller": {
+        "Name": 0
+    },
+    "HumanoidController": {
+        "Name": 0
+    },
+    "SkateboardController": {
+        "Name": 0,
+        "Steer": 0,
+        "Throttle": 0
+    },
+    "VehicleController": {
+        "Name": 0
+    },
+    "CorePackages": {
+        "Name": 0
+    },
+    "CrossDMScriptChangeListener": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "CustomEvent": {
+        "Name": 0
+    },
+    "CustomEventReceiver": {
+        "Name": 0,
+        "Source": 0
+    },
+    "DataModelMesh": {
+        "Name": 0,
+        "Offset": 0,
+        "Scale": 0,
+        "VertexColor": 0
+    },
+    "BevelMesh": {
+        "Name": 0
+    },
+    "BlockMesh": {
+        "Name": 0
+    },
+    "CylinderMesh": {
+        "Name": 0
+    },
+    "FileMesh": {
+        "Name": 0,
+        "MeshId": 0,
+        "TextureId": 0
+    },
+    "SpecialMesh": {
+        "Name": 0,
+        "MeshType": 0
+    },
+    "DataModelSession": {
+        "Name": 0,
+        "CurrentDataModelType": 0,
+        "SessionId": 0
+    },
+    "DataStoreIncrementOptions": {
+        "Name": 0
+    },
+    "DataStoreInfo": {
+        "Name": 0,
+        "CreatedTime": 0,
+        "DataStoreName": 0,
+        "UpdatedTime": 0
+    },
+    "DataStoreKey": {
+        "Name": 0,
+        "KeyName": 0
+    },
+    "DataStoreKeyInfo": {
+        "Name": 0,
+        "CreatedTime": 0,
+        "UpdatedTime": 0,
+        "Version": 0
+    },
+    "DataStoreObjectVersionInfo": {
+        "Name": 0,
+        "CreatedTime": 0,
+        "IsDeleted": 0,
+        "Version": 0
+    },
+    "DataStoreOptions": {
+        "Name": 0,
+        "AllScopes": 0
+    },
+    "DataStoreSetOptions": {
+        "Name": 0
+    },
+    "Debris": {
+        "Name": 0,
+        "MaxItems": 0
+    },
+    "DebugSettings": {
+        "Name": 0,
+        "DataModel": 0,
+        "InstanceCount": 0,
+        "IsScriptStackTracingEnabled": 0,
+        "JobCount": 0,
+        "PlayerCount": 0,
+        "ReportSoundWarnings": 0,
+        "RobloxVersion": 0,
+        "TickCountPreciseOverride": 0
+    },
+    "DebuggerBreakpoint": {
+        "Name": 0,
+        "Condition": 0,
+        "ContinueExecution": 0,
+        "IsEnabled": 0,
+        "Line": 0,
+        "LogExpression": 0,
+        "isContextDependentBreakpoint": 0
+    },
+    "DebuggerConnection": {
+        "Name": 0,
+        "ErrorMessage": 0,
+        "HasError": 0,
+        "Id": 0,
+        "IsPaused": 0
+    },
+    "LocalDebuggerConnection": {
+        "Name": 0
+    },
+    "DebuggerConnectionManager": {
+        "Name": 0,
+        "Timeout": 0
+    },
+    "DebuggerLuaResponse": {
+        "Name": 0,
+        "IsError": 0,
+        "IsSuccess": 0,
+        "Message": 0,
+        "RequestId": 0,
+        "Status": 0
+    },
+    "DebuggerManager": {
+        "Name": 0,
+        "DebuggingEnabled": 0
+    },
+    "DebuggerVariable": {
+        "Name": 0,
+        "Populated": 0,
+        "Type": 0,
+        "Value": 0,
+        "VariableId": 0,
+        "VariablesCount": 0
+    },
+    "DebuggerWatch": {
+        "Name": 0,
+        "Expression": 0
+    },
+    "Dialog": {
+        "Name": 0,
+        "BehaviorType": 0,
+        "ConversationDistance": 0,
+        "GoodbyeChoiceActive": 0,
+        "GoodbyeDialog": 0,
+        "InUse": 0,
+        "InitialPrompt": 0,
+        "Purpose": 0,
+        "Tone": 0,
+        "TriggerDistance": 0,
+        "TriggerOffset": 0
+    },
+    "DialogChoice": {
+        "Name": 0,
+        "GoodbyeChoiceActive": 0,
+        "GoodbyeDialog": 0,
+        "ResponseDialog": 0,
+        "UserDialog": 0
+    },
+    "Dragger": {
+        "Name": 0
+    },
+    "EulerRotationCurve": {
+        "Name": 0,
+        "RotationOrder": 0
+    },
+    "Explosion": {
+        "Name": 0,
+        "BlastPressure": 0,
+        "BlastRadius": 0,
+        "DestroyJointRadiusPercent": 0,
+        "ExplosionType": 0,
+        "Position": 0,
+        "TimeScale": 0,
+        "Visible": 0
+    },
+    "FaceInstance": {
+        "Name": 0,
+        "Face": 0
+    },
+    "Decal": {
+        "Name": 0,
+        "Color3": 0,
+        "LocalTransparencyModifier": 0,
+        "Shiny": 0,
+        "Specular": 0,
+        "Texture": 0,
+        "Transparency": 0,
+        "ZIndex": 0
+    },
+    "Texture": {
+        "Name": 0,
+        "OffsetStudsU": 0,
+        "OffsetStudsV": 0,
+        "StudsPerTileU": 0,
+        "StudsPerTileV": 0
+    },
+    "Feature": {
+        "Name": 0,
+        "FaceId": 0,
+        "InOut": 0,
+        "LeftRight": 0,
+        "TopBottom": 0
+    },
+    "Hole": {
+        "Name": 0
+    },
+    "MotorFeature": {
+        "Name": 0
+    },
+    "File": {
+        "Name": 0,
+        "Size": 0
+    },
+    "Fire": {
+        "Name": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "Heat": 0,
+        "SecondaryColor": 0,
+        "Size": 0,
+        "TimeScale": 0,
+        "size": 0
+    },
+    "FloatCurve": {
+        "Name": 0,
+        "Length": 0
+    },
+    "Folder": {
+        "Name": 0
+    },
+    "ForceField": {
+        "Name": 0,
+        "Visible": 0
+    },
+    "FunctionalTest": {
+        "Name": 0,
+        "Description": 0
+    },
+    "GameSettings": {
+        "Name": 0,
+        "AdditionalCoreIncludeDirs": 0,
+        "OverrideStarterScript": 0,
+        "VideoCaptureEnabled": 0,
+        "VideoRecording": 0
+    },
+    "Geometry": {
+        "Name": 0
+    },
+    "GlobalDataStore": {
+        "Name": 0
+    },
+    "DataStore": {
+        "Name": 0
+    },
+    "OrderedDataStore": {
+        "Name": 0
+    },
+    "GoogleAnalyticsConfiguration": {
+        "Name": 0
+    },
+    "GuiBase": {
+        "Name": 0
+    },
+    "GuiBase2d": {
+        "Name": 0,
+        "AbsolutePosition": 0,
+        "AbsoluteRotation": 0,
+        "AbsoluteSize": 0,
+        "AutoLocalize": 0,
+        "ClippedRect": 0,
+        "IsNotOccluded": 0,
+        "Localize": 0,
+        "RawRect2D": 0,
+        "RootLocalizationTable": 0,
+        "TotalGroupScale": 0
+    },
+    "GuiObject": {
+        "Name": 0,
+        "Active": 0,
+        "AnchorPoint": 0,
+        "AutomaticSize": 0,
+        "BackgroundColor": 0,
+        "BackgroundColor3": 0,
+        "BackgroundTransparency": 0,
+        "BorderColor": 0,
+        "BorderColor3": 0,
+        "BorderMode": 0,
+        "BorderSizePixel": 0,
+        "ClipsDescendants": 0,
+        "Draggable": 0,
+        "LayoutOrder": 0,
+        "NextSelectionDown": 0,
+        "NextSelectionLeft": 0,
+        "NextSelectionRight": 0,
+        "NextSelectionUp": 0,
+        "Position": 0,
+        "Rotation": 0,
+        "Selectable": 0,
+        "SelectionImageObject": 0,
+        "Size": 0,
+        "SizeConstraint": 0,
+        "Transparency": 0,
+        "Visible": 0,
+        "ZIndex": 0
+    },
+    "CanvasGroup": {
+        "Name": 0,
+        "GroupColor": 0,
+        "GroupTransparency": 0
+    },
+    "Frame": {
+        "Name": 0,
+        "Style": 0
+    },
+    "GuiButton": {
+        "Name": 0,
+        "AutoButtonColor": 0,
+        "Modal": 0,
+        "Selected": 0,
+        "Style": 0
+    },
+    "ImageButton": {
+        "Name": 0,
+        "ContentImageSize": 0,
+        "HoverImage": 0,
+        "Image": 0,
+        "ImageColor3": 0,
+        "ImageRectOffset": 0,
+        "ImageRectSize": 0,
+        "ImageTransparency": 0,
+        "IsLoaded": 0,
+        "PressedImage": 0,
+        "ResampleMode": 0,
+        "ScaleType": 0,
+        "SliceCenter": 0,
+        "SliceScale": 0,
+        "TileSize": 0
+    },
+    "TextButton": {
+        "Name": 0,
+        "ContentText": 0,
+        "Font": 0,
+        "FontFace": 0,
+        "FontSize": 0,
+        "LineHeight": 0,
+        "LocalizedText": 0,
+        "MaxVisibleGraphemes": 0,
+        "RichText": 0,
+        "Text": 0,
+        "TextBounds": 0,
+        "TextColor": 0,
+        "TextColor3": 0,
+        "TextFits": 0,
+        "TextScaled": 0,
+        "TextSize": 0,
+        "TextStrokeColor3": 0,
+        "TextStrokeTransparency": 0,
+        "TextTransparency": 0,
+        "TextTruncate": 0,
+        "TextWrap": 0,
+        "TextWrapped": 0,
+        "TextXAlignment": 0,
+        "TextYAlignment": 0
+    },
+    "GuiLabel": {
+        "Name": 0
+    },
+    "ImageLabel": {
+        "Name": 0,
+        "ContentImageSize": 0,
+        "Image": 0,
+        "ImageColor3": 0,
+        "ImageRectOffset": 0,
+        "ImageRectSize": 0,
+        "ImageTransparency": 0,
+        "IsLoaded": 0,
+        "ResampleMode": 0,
+        "ScaleType": 0,
+        "SliceCenter": 0,
+        "SliceScale": 0,
+        "TileSize": 0
+    },
+    "TextLabel": {
+        "Name": 0,
+        "ContentText": 0,
+        "Font": 0,
+        "FontFace": 0,
+        "FontSize": 0,
+        "LineHeight": 0,
+        "LocalizedText": 0,
+        "MaxVisibleGraphemes": 0,
+        "RichText": 0,
+        "Text": 0,
+        "TextBounds": 0,
+        "TextColor": 0,
+        "TextColor3": 0,
+        "TextFits": 0,
+        "TextScaled": 0,
+        "TextSize": 0,
+        "TextStrokeColor3": 0,
+        "TextStrokeTransparency": 0,
+        "TextTransparency": 0,
+        "TextTruncate": 0,
+        "TextWrap": 0,
+        "TextWrapped": 0,
+        "TextXAlignment": 0,
+        "TextYAlignment": 0
+    },
+    "ScrollingFrame": {
+        "Name": 0,
+        "AbsoluteCanvasSize": 0,
+        "AbsoluteWindowSize": 0,
+        "AutomaticCanvasSize": 0,
+        "BottomImage": 0,
+        "CanvasPosition": 0,
+        "CanvasSize": 0,
+        "ElasticBehavior": 0,
+        "HorizontalBarRect": 0,
+        "HorizontalScrollBarInset": 0,
+        "MaxCanvasPosition": 0,
+        "MidImage": 0,
+        "ScrollBarImageColor3": 0,
+        "ScrollBarImageTransparency": 0,
+        "ScrollBarThickness": 0,
+        "ScrollVelocity": 0,
+        "ScrollingDirection": 0,
+        "ScrollingEnabled": 0,
+        "TopImage": 0,
+        "VerticalBarRect": 0,
+        "VerticalScrollBarInset": 0,
+        "VerticalScrollBarPosition": 0
+    },
+    "TextBox": {
+        "Name": 0,
+        "ClearTextOnFocus": 0,
+        "ContentText": 0,
+        "CursorPosition": 0,
+        "EnableRealtimeFilteringHints": 0,
+        "Font": 0,
+        "FontFace": 0,
+        "FontSize": 0,
+        "LineHeight": 0,
+        "ManualFocusRelease": 0,
+        "MaxVisibleGraphemes": 0,
+        "MultiLine": 0,
+        "OverlayNativeInput": 0,
+        "PlaceholderColor3": 0,
+        "PlaceholderText": 0,
+        "ReturnKeyType": 0,
+        "RichText": 0,
+        "SelectionStart": 0,
+        "ShowNativeInput": 0,
+        "Text": 0,
+        "TextBounds": 0,
+        "TextColor": 0,
+        "TextColor3": 0,
+        "TextEditable": 0,
+        "TextFits": 0,
+        "TextInputType": 0,
+        "TextScaled": 0,
+        "TextSize": 0,
+        "TextStrokeColor3": 0,
+        "TextStrokeTransparency": 0,
+        "TextTransparency": 0,
+        "TextTruncate": 0,
+        "TextWrap": 0,
+        "TextWrapped": 0,
+        "TextXAlignment": 0,
+        "TextYAlignment": 0
+    },
+    "VideoFrame": {
+        "Name": 0,
+        "IsLoaded": 0,
+        "Looped": 0,
+        "Playing": 0,
+        "Resolution": 0,
+        "TimeLength": 0,
+        "TimePosition": 0,
+        "Video": 0,
+        "Volume": 0
+    },
+    "ViewportFrame": {
+        "Name": 0,
+        "Ambient": 0,
+        "CurrentCamera": 0,
+        "ImageColor3": 0,
+        "ImageTransparency": 0,
+        "LightColor": 0,
+        "LightDirection": 0
+    },
+    "LayerCollector": {
+        "Name": 0,
+        "Enabled": 0,
+        "ResetOnSpawn": 0,
+        "ZIndexBehavior": 0
+    },
+    "BillboardGui": {
+        "Name": 0,
+        "Active": 0,
+        "Adornee": 0,
+        "AlwaysOnTop": 0,
+        "Brightness": 0,
+        "ClipsDescendants": 0,
+        "CurrentDistance": 0,
+        "DistanceLowerLimit": 0,
+        "DistanceStep": 0,
+        "DistanceUpperLimit": 0,
+        "ExtentsOffset": 0,
+        "ExtentsOffsetWorldSpace": 0,
+        "LightInfluence": 0,
+        "MaxDistance": 0,
+        "PlayerToHideFrom": 0,
+        "Size": 0,
+        "SizeOffset": 0,
+        "StudsOffset": 0,
+        "StudsOffsetWorldSpace": 0
+    },
+    "PluginGui": {
+        "Name": 0,
+        "Title": 0
+    },
+    "DockWidgetPluginGui": {
+        "Name": 0,
+        "HostWidgetWasRestored": 0
+    },
+    "QWidgetPluginGui": {
+        "Name": 0
+    },
+    "ScreenGui": {
+        "Name": 0,
+        "DisplayOrder": 0,
+        "IgnoreGuiInset": 0,
+        "OnTopOfCoreBlur": 0
+    },
+    "GuiMain": {
+        "Name": 0
+    },
+    "SurfaceGui": {
+        "Name": 0,
+        "Active": 0,
+        "Adornee": 0,
+        "AlwaysOnTop": 0,
+        "Brightness": 0,
+        "CanvasSize": 0,
+        "ClipsDescendants": 0,
+        "Face": 0,
+        "LightInfluence": 0,
+        "PixelsPerStud": 0,
+        "SizingMode": 0,
+        "ToolPunchThroughDistance": 0,
+        "ZOffset": 0
+    },
+    "GuiBase3d": {
+        "Name": 0,
+        "Color": 0,
+        "Color3": 0,
+        "Transparency": 0,
+        "Visible": 0
+    },
+    "FloorWire": {
+        "Name": 0,
+        "CycleOffset": 0,
+        "From": 0,
+        "StudsBetweenTextures": 0,
+        "Texture": 0,
+        "TextureSize": 0,
+        "To": 0,
+        "Velocity": 0,
+        "WireRadius": 0
+    },
+    "InstanceAdornment": {
+        "Name": 0,
+        "Adornee": 0
+    },
+    "SelectionBox": {
+        "Name": 0,
+        "LineThickness": 0,
+        "SurfaceColor": 0,
+        "SurfaceColor3": 0,
+        "SurfaceTransparency": 0
+    },
+    "PVAdornment": {
+        "Name": 0,
+        "Adornee": 0
+    },
+    "HandleAdornment": {
+        "Name": 0,
+        "AdornCullingMode": 0,
+        "AlwaysOnTop": 0,
+        "CFrame": 0,
+        "SizeRelativeOffset": 0,
+        "ZIndex": 0
+    },
+    "BoxHandleAdornment": {
+        "Name": 0,
+        "Size": 0
+    },
+    "ConeHandleAdornment": {
+        "Name": 0,
+        "Height": 0,
+        "Radius": 0
+    },
+    "CylinderHandleAdornment": {
+        "Name": 0,
+        "Angle": 0,
+        "Height": 0,
+        "InnerRadius": 0,
+        "Radius": 0
+    },
+    "ImageHandleAdornment": {
+        "Name": 0,
+        "Image": 0,
+        "Size": 0
+    },
+    "LineHandleAdornment": {
+        "Name": 0,
+        "Length": 0,
+        "Thickness": 0
+    },
+    "SphereHandleAdornment": {
+        "Name": 0,
+        "Radius": 0
+    },
+    "ParabolaAdornment": {
+        "Name": 0,
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "Range": 0,
+        "Thickness": 0
+    },
+    "SelectionSphere": {
+        "Name": 0,
+        "SurfaceColor": 0,
+        "SurfaceColor3": 0,
+        "SurfaceTransparency": 0
+    },
+    "PartAdornment": {
+        "Name": 0,
+        "Adornee": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "HandlesBase": {
+        "Name": 0
+    },
+    "ArcHandles": {
+        "Name": 0,
+        "Axes": 0
+    },
+    "Handles": {
+        "Name": 0,
+        "Faces": 0,
+        "Style": 0
+    },
+    "SurfaceSelection": {
+        "Name": 0,
+        "TargetSurface": 0
+    },
+    "SelectionLasso": {
+        "Name": 0,
+        "Humanoid": 0
+    },
+    "SelectionPartLasso": {
+        "Name": 0,
+        "Part": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "SelectionPointLasso": {
+        "Name": 0,
+        "Point": 0
+    },
+    "HiddenSurfaceRemovalAsset": {
+        "Name": 0
+    },
+    "Highlight": {
+        "Name": 0,
+        "Adornee": 0,
+        "DepthMode": 0,
+        "Enabled": 0,
+        "FillColor": 0,
+        "FillTransparency": 0,
+        "OutlineColor": 0,
+        "OutlineTransparency": 0
+    },
+    "Hopper": {
+        "Name": 0
+    },
+    "HttpRequest": {
+        "Name": 0
+    },
+    "Humanoid": {
+        "Name": 0,
+        "AutoJumpEnabled": 0,
+        "AutoRotate": 0,
+        "AutomaticScalingEnabled": 0,
+        "BreakJointsOnDeath": 0,
+        "CameraOffset": 0,
+        "CollisionType": 0,
+        "DisplayDistanceType": 0,
+        "DisplayName": 0,
+        "FloorMaterial": 0,
+        "Health": 0,
+        "HealthDisplayDistance": 0,
+        "HealthDisplayType": 0,
+        "HipHeight": 0,
+        "Jump": 0,
+        "JumpHeight": 0,
+        "JumpPower": 0,
+        "LeftLeg": 0,
+        "MaxHealth": 0,
+        "MaxSlopeAngle": 0,
+        "MoveDirection": 0,
+        "NameDisplayDistance": 0,
+        "NameOcclusion": 0,
+        "PlatformStand": 0,
+        "RequiresNeck": 0,
+        "RigType": 0,
+        "RightLeg": 0,
+        "RootPart": 0,
+        "SeatPart": 0,
+        "Sit": 0,
+        "TargetPoint": 0,
+        "Torso": 0,
+        "UseJumpPower": 0,
+        "WalkSpeed": 0,
+        "WalkToPart": 0,
+        "WalkToPoint": 0,
+        "maxHealth": 0
+    },
+    "HumanoidDescription": {
+        "Name": 0,
+        "AccessoryBlob": 0,
+        "BackAccessory": 0,
+        "BodyTypeScale": 0,
+        "ClimbAnimation": 0,
+        "DepthScale": 0,
+        "Face": 0,
+        "FaceAccessory": 0,
+        "FallAnimation": 0,
+        "FrontAccessory": 0,
+        "GraphicTShirt": 0,
+        "HairAccessory": 0,
+        "HatAccessory": 0,
+        "Head": 0,
+        "HeadColor": 0,
+        "HeadScale": 0,
+        "HeightScale": 0,
+        "IdleAnimation": 0,
+        "JumpAnimation": 0,
+        "LeftArm": 0,
+        "LeftArmColor": 0,
+        "LeftLeg": 0,
+        "LeftLegColor": 0,
+        "NeckAccessory": 0,
+        "NumberEmotesLoaded": 0,
+        "Pants": 0,
+        "ProportionScale": 0,
+        "RightArm": 0,
+        "RightArmColor": 0,
+        "RightLeg": 0,
+        "RightLegColor": 0,
+        "RunAnimation": 0,
+        "Shirt": 0,
+        "ShouldersAccessory": 0,
+        "SwimAnimation": 0,
+        "Torso": 0,
+        "TorsoColor": 0,
+        "WaistAccessory": 0,
+        "WalkAnimation": 0,
+        "WidthScale": 0
+    },
+    "ILegacyStudioBridge": {
+        "Name": 0
+    },
+    "LegacyStudioBridge": {
+        "Name": 0
+    },
+    "ImporterBaseSettings": {
+        "Name": 0,
+        "Id": 0,
+        "ImportName": 0,
+        "ShouldImport": 0
+    },
+    "ImporterAnimationSettings": {
+        "Name": 0
+    },
+    "ImporterGroupSettings": {
+        "Name": 0,
+        "Anchored": 0,
+        "ImportAsModelAsset": 0,
+        "InsertInWorkspace": 0
+    },
+    "ImporterJointSettings": {
+        "Name": 0
+    },
+    "ImporterMaterialSettings": {
+        "Name": 0,
+        "DiffuseFilePath": 0,
+        "MetalnessFilePath": 0,
+        "NormalFilePath": 0,
+        "RoughnessFilePath": 0
+    },
+    "ImporterMeshSettings": {
+        "Name": 0,
+        "Anchored": 0,
+        "Dimensions": 0,
+        "DoubleSided": 0,
+        "IgnoreVertexColors": 0,
+        "PolygonCount": 0
+    },
+    "ImporterRootSettings": {
+        "Name": 0,
+        "Anchored": 0,
+        "FileDimensions": 0,
+        "ImportAsModelAsset": 0,
+        "InsertInWorkspace": 0,
+        "InvertNegativeFaces": 0,
+        "MergeMeshes": 0,
+        "PolygonCount": 0,
+        "RigType": 0,
+        "ScaleUnit": 0,
+        "WorldForward": 0,
+        "WorldUp": 0
+    },
+    "ImporterTextureSettings": {
+        "Name": 0,
+        "FilePath": 0
+    },
+    "IncrementalPatchBuilder": {
+        "Name": 0
+    },
+    "InputObject": {
+        "Name": 0,
+        "Delta": 0,
+        "KeyCode": 0,
+        "Position": 0,
+        "UserInputState": 0,
+        "UserInputType": 0
+    },
+    "InternalContainer": {
+        "Name": 0
+    },
+    "JointInstance": {
+        "Name": 0,
+        "Active": 0,
+        "C0": 0,
+        "C1": 0,
+        "Enabled": 0,
+        "Part0": 0,
+        "Part1": 0,
+        "part1": 0
+    },
+    "DynamicRotate": {
+        "Name": 0,
+        "BaseAngle": 0
+    },
+    "RotateP": {
+        "Name": 0
+    },
+    "RotateV": {
+        "Name": 0
+    },
+    "Glue": {
+        "Name": 0,
+        "F0": 0,
+        "F1": 0,
+        "F2": 0,
+        "F3": 0
+    },
+    "ManualSurfaceJointInstance": {
+        "Name": 0
+    },
+    "ManualGlue": {
+        "Name": 0
+    },
+    "ManualWeld": {
+        "Name": 0
+    },
+    "Motor": {
+        "Name": 0,
+        "CurrentAngle": 0,
+        "DesiredAngle": 0,
+        "MaxVelocity": 0
+    },
+    "Motor6D": {
+        "Name": 0,
+        "ChildName": 0,
+        "ParentName": 0,
+        "Transform": 0
+    },
+    "Rotate": {
+        "Name": 0
+    },
+    "Snap": {
+        "Name": 0
+    },
+    "VelocityMotor": {
+        "Name": 0,
+        "CurrentAngle": 0,
+        "DesiredAngle": 0,
+        "Hole": 0,
+        "MaxVelocity": 0
+    },
+    "Weld": {
+        "Name": 0
+    },
+    "Keyframe": {
+        "Name": 0,
+        "Time": 0
+    },
+    "KeyframeMarker": {
+        "Name": 0,
+        "Value": 0
+    },
+    "Light": {
+        "Name": 0,
+        "Brightness": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "Shadows": 0
+    },
+    "PointLight": {
+        "Name": 0,
+        "Range": 0
+    },
+    "SpotLight": {
+        "Name": 0,
+        "Angle": 0,
+        "Face": 0,
+        "Range": 0
+    },
+    "SurfaceLight": {
+        "Name": 0,
+        "Angle": 0,
+        "Face": 0,
+        "Range": 0
+    },
+    "Lighting": {
+        "Name": 0,
+        "Ambient": 0,
+        "Brightness": 0,
+        "ClockTime": 0,
+        "ColorShift_Bottom": 0,
+        "ColorShift_Top": 0,
+        "EnvironmentDiffuseScale": 0,
+        "EnvironmentSpecularScale": 0,
+        "ExposureCompensation": 0,
+        "FogColor": 0,
+        "FogEnd": 0,
+        "FogStart": 0,
+        "GeographicLatitude": 0,
+        "GlobalShadows": 0,
+        "OutdoorAmbient": 0,
+        "Outlines": 0,
+        "ShadowColor": 0,
+        "ShadowSoftness": 0,
+        "Technology": 0,
+        "TempUseNewSkyRemovalBehaviour": 0,
+        "TimeOfDay": 0
+    },
+    "LocalizationTable": {
+        "Name": 0,
+        "DevelopmentLanguage": 0,
+        "Root": 0,
+        "SourceLocaleId": 0
+    },
+    "LodDataEntity": {
+        "Name": 0,
+        "EntityLodEnabled": 0
+    },
+    "LuaSettings": {
+        "Name": 0
+    },
+    "LuaSourceContainer": {
+        "Name": 0,
+        "CurrentEditor": 0
+    },
+    "CoreScript": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "Script": {
+        "Name": 0,
+        "Source": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "LocalScript": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "ModuleScript": {
+        "Name": 0,
+        "LinkedSource": 0,
+        "Source": 0,
+        "Disabled": 0
+    },
+    "MarkerCurve": {
+        "Name": 0,
+        "Length": 0
+    },
+    "MaterialVariant": {
+        "Name": 0,
+        "BaseMaterial": 0,
+        "ColorMap": 0,
+        "MaterialPattern": 0,
+        "MetalnessMap": 0,
+        "NormalMap": 0,
+        "RoughnessMap": 0,
+        "StudsPerTile": 0
+    },
+    "MemStorageConnection": {
+        "Name": 0
+    },
+    "MemoryStoreQueue": {
+        "Name": 0
+    },
+    "MemoryStoreSortedMap": {
+        "Name": 0
+    },
+    "Message": {
+        "Name": 0,
+        "Text": 0
+    },
+    "Hint": {
+        "Name": 0
+    },
+    "MessageBusConnection": {
+        "Name": 0
+    },
+    "MetaBreakpoint": {
+        "Name": 0,
+        "Condition": 0,
+        "ContinueExecution": 0,
+        "Enabled": 0,
+        "Id": 0,
+        "IsLogpoint": 0,
+        "Line": 0,
+        "LogMessage": 0,
+        "Script": 0
+    },
+    "MetaBreakpointContext": {
+        "Name": 0
+    },
+    "Mouse": {
+        "Name": 0,
+        "Hit": 0,
+        "Icon": 0,
+        "Origin": 0,
+        "Target": 0,
+        "TargetFilter": 0,
+        "TargetSurface": 0,
+        "UnitRay": 0,
+        "ViewSizeX": 0,
+        "ViewSizeY": 0,
+        "X": 0,
+        "Y": 0,
+        "hit": 0
+    },
+    "PlayerMouse": {
+        "Name": 0
+    },
+    "PluginMouse": {
+        "Name": 0
+    },
+    "MultipleDocumentInterfaceInstance": {
+        "Name": 0,
+        "FocusedDataModelSession": 0
+    },
+    "NetworkMarker": {
+        "Name": 0
+    },
+    "NetworkPeer": {
+        "Name": 0
+    },
+    "NetworkClient": {
+        "Name": 0
+    },
+    "NetworkServer": {
+        "Name": 0
+    },
+    "NetworkReplicator": {
+        "Name": 0
+    },
+    "ClientReplicator": {
+        "Name": 0
+    },
+    "ServerReplicator": {
+        "Name": 0
+    },
+    "NetworkSettings": {
+        "Name": 0,
+        "EmulatedTotalMemoryInMB": 0,
+        "FreeMemoryMBytes": 0,
+        "HttpProxyEnabled": 0,
+        "HttpProxyURL": 0,
+        "IncomingReplicationLag": 0,
+        "PrintJoinSizeBreakdown": 0,
+        "PrintPhysicsErrors": 0,
+        "PrintStreamInstanceQuota": 0,
+        "RandomizeJoinInstanceOrder": 0,
+        "RenderStreamedRegions": 0,
+        "ShowActiveAnimationAsset": 0
+    },
+    "NoCollisionConstraint": {
+        "Name": 0,
+        "Enabled": 0,
+        "Part0": 0,
+        "Part1": 0
+    },
+    "PVInstance": {
+        "Name": 0,
+        "Origin Orientation": 0,
+        "Origin Position": 0,
+        "Pivot Offset Orientation": 0,
+        "Pivot Offset Position": 0
+    },
+    "CornerWedgePart": {
+        "Name": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "FormFactorPart": {
+        "Name": 0,
+        "FormFactor": 0,
+        "formFactor": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "Part": {
+        "Name": 0,
+        "Shape": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "FlagStand": {
+        "Name": 0,
+        "TeamColor": 0
+    },
+    "Platform": {
+        "Name": 0
+    },
+    "Seat": {
+        "Name": 0,
+        "Disabled": 0,
+        "Occupant": 0
+    },
+    "SkateboardPlatform": {
+        "Name": 0,
+        "Controller": 0,
+        "ControllingHumanoid": 0,
+        "Steer": 0,
+        "StickyWheels": 0,
+        "Throttle": 0
+    },
+    "SpawnLocation": {
+        "Name": 0,
+        "AllowTeamChangeOnTouch": 0,
+        "Duration": 0,
+        "Enabled": 0,
+        "Neutral": 0,
+        "TeamColor": 0
+    },
+    "WedgePart": {
+        "Name": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "Terrain": {
+        "Name": 0,
+        "Decoration": 0,
+        "IsSmooth": 0,
+        "LastUsedModificationMethod": 0,
+        "MaterialColors": 0,
+        "MaxExtents": 0,
+        "WaterColor": 0,
+        "WaterReflectance": 0,
+        "WaterTransparency": 0,
+        "WaterWaveSize": 0,
+        "WaterWaveSpeed": 0
+    },
+    "TriangleMeshPart": {
+        "Name": 0,
+        "CollisionFidelity": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "MeshPart": {
+        "Name": 0,
+        "DoubleSided": 0,
+        "HasJointOffset": 0,
+        "HasSkinnedMesh": 0,
+        "JointOffset": 0,
+        "MeshID": 0,
+        "MeshId": 0,
+        "MeshSize": 0,
+        "RenderFidelity": 0,
+        "TextureID": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "PartOperation": {
+        "Name": 0,
+        "RenderFidelity": 0,
+        "SmoothingAngle": 0,
+        "TriangleCount": 0,
+        "UsePartColor": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "NegateOperation": {
+        "Name": 0
+    },
+    "UnionOperation": {
+        "Name": 0
+    },
+    "TrussPart": {
+        "Name": 0,
+        "Style": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "VehicleSeat": {
+        "Name": 0,
+        "AreHingesDetected": 0,
+        "Disabled": 0,
+        "HeadsUpDisplay": 0,
+        "MaxSpeed": 0,
+        "Occupant": 0,
+        "Steer": 0,
+        "SteerFloat": 0,
+        "Throttle": 0,
+        "ThrottleFloat": 0,
+        "Torque": 0,
+        "TurnSpeed": 0
+    },
+    "Model": {
+        "Name": 0,
+        "LevelOfDetail": 0,
+        "PrimaryPart": 0,
+        "World Pivot Orientation": 0,
+        "World Pivot Position": 0,
+        "WorldPivot": 0
+    },
+    "Actor": {
+        "Name": 0
+    },
+    "Status": {
+        "Name": 0
+    },
+    "WorldRoot": {
+        "Name": 0
+    },
+    "Workspace": {
+        "Name": 0,
+        "AllowThirdPartySales": 0,
+        "AnimationWeightedBlendFix": 0,
+        "ClientAnimatorThrottling": 0,
+        "CurrentCamera": 0,
+        "DistributedGameTime": 0,
+        "FallenPartsDestroyHeight": 0,
+        "FilteringEnabled": 0,
+        "GlobalWind": 0,
+        "Gravity": 0,
+        "HumanoidOnlySetCollisionsOnStateChange": 0,
+        "InterpolationThrottling": 0,
+        "MeshPartHeadsAndAccessories": 0,
+        "PhysicsSimulationRate": 0,
+        "PhysicsSteppingMethod": 0,
+        "ReplicateInstanceDestroySetting": 0,
+        "Retargeting": 0,
+        "SignalBehavior": 0,
+        "StreamOutBehavior": 0,
+        "StreamingEnabled": 0,
+        "StreamingMinRadius": 0,
+        "StreamingPauseMode": 0,
+        "StreamingTargetRadius": 0,
+        "Terrain": 0,
+        "TouchesUseCollisionGroups": 0
+    },
+    "WorldModel": {
+        "Name": 0
+    },
+    "PackageLink": {
+        "Name": 0,
+        "AutoUpdate": 0,
+        "Creator": 0,
+        "PackageAssetName": 0,
+        "PackageId": 0,
+        "PermissionLevel": 0,
+        "Status": 0,
+        "VersionNumber": 0
+    },
+    "Pages": {
+        "Name": 0,
+        "IsFinished": 0
+    },
+    "CatalogPages": {
+        "Name": 0
+    },
+    "DataStoreKeyPages": {
+        "Name": 0
+    },
+    "DataStoreListingPages": {
+        "Name": 0
+    },
+    "DataStorePages": {
+        "Name": 0
+    },
+    "DataStoreVersionPages": {
+        "Name": 0
+    },
+    "FriendPages": {
+        "Name": 0
+    },
+    "InventoryPages": {
+        "Name": 0
+    },
+    "EmotesPages": {
+        "Name": 0
+    },
+    "OutfitPages": {
+        "Name": 0
+    },
+    "StandardPages": {
+        "Name": 0
+    },
+    "PartOperationAsset": {
+        "Name": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "Color": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "Orientation": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "Rotation": 0,
+        "Size": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Transparency": 0,
+        "Velocity": 0
+    },
+    "ParticleEmitter": {
+        "Name": 0,
+        "Acceleration": 0,
+        "Brightness": 0,
+        "Color": 0,
+        "Drag": 0,
+        "EmissionDirection": 0,
+        "Enabled": 0,
+        "FlipbookFramerate": 0,
+        "FlipbookIncompatible": 0,
+        "FlipbookLayout": 0,
+        "FlipbookMode": 0,
+        "FlipbookStartRandom": 0,
+        "Lifetime": 0,
+        "LightEmission": 0,
+        "LightInfluence": 0,
+        "LockedToPart": 0,
+        "Orientation": 0,
+        "Rate": 0,
+        "RotSpeed": 0,
+        "Rotation": 0,
+        "Shape": 0,
+        "ShapeInOut": 0,
+        "ShapePartial": 0,
+        "ShapeStyle": 0,
+        "Size": 0,
+        "Speed": 0,
+        "SpreadAngle": 0,
+        "Squash": 0,
+        "Texture": 0,
+        "TimeScale": 0,
+        "Transparency": 0,
+        "VelocityInheritance": 0,
+        "VelocitySpread": 0,
+        "ZOffset": 0,
+        "Anchored": 0,
+        "AssemblyAngularVelocity": 0,
+        "AssemblyCenterOfMass": 0,
+        "AssemblyLinearVelocity": 0,
+        "AssemblyMass": 0,
+        "AssemblyRootPart": 0,
+        "BackParamA": 0,
+        "BackParamB": 0,
+        "BackSurface": 0,
+        "BackSurfaceInput": 0,
+        "BottomParamA": 0,
+        "BottomParamB": 0,
+        "BottomSurface": 0,
+        "BottomSurfaceInput": 0,
+        "BrickColor": 0,
+        "CFrame": 0,
+        "CanCollide": 0,
+        "CanQuery": 0,
+        "CanTouch": 0,
+        "CastShadow": 0,
+        "CenterOfMass": 0,
+        "CollisionGroupId": 0,
+        "CustomPhysicalProperties": 0,
+        "Elasticity": 0,
+        "Friction": 0,
+        "FrontParamA": 0,
+        "FrontParamB": 0,
+        "FrontSurface": 0,
+        "FrontSurfaceInput": 0,
+        "LeftParamA": 0,
+        "LeftParamB": 0,
+        "LeftSurface": 0,
+        "LeftSurfaceInput": 0,
+        "LocalTransparencyModifier": 0,
+        "Locked": 0,
+        "Mass": 0,
+        "Massless": 0,
+        "Material": 0,
+        "MaterialVariant": 0,
+        "PivotOffset": 0,
+        "Position": 0,
+        "ReceiveAge": 0,
+        "Reflectance": 0,
+        "ResizeIncrement": 0,
+        "ResizeableFaces": 0,
+        "RightParamA": 0,
+        "RightParamB": 0,
+        "RightSurface": 0,
+        "RightSurfaceInput": 0,
+        "RootPriority": 0,
+        "RotVelocity": 0,
+        "SpecificGravity": 0,
+        "TopParamA": 0,
+        "TopParamB": 0,
+        "TopSurface": 0,
+        "TopSurfaceInput": 0,
+        "Velocity": 0
+    },
+    "Path": {
+        "Name": 0,
+        "Status": 0
+    },
+    "PathfindingLink": {
+        "Name": 0,
+        "Attachment0": 0,
+        "Attachment1": 0,
+        "IsBidirectional": 0,
+        "Label": 0
+    },
+    "PathfindingModifier": {
+        "Name": 0,
+        "Label": 0,
+        "PassThrough": 0
+    },
+    "PausedState": {
+        "Name": 0,
+        "AllThreadsPaused": 0,
+        "Reason": 0,
+        "ThreadId": 0
+    },
+    "PausedStateBreakpoint": {
+        "Name": 0,
+        "Breakpoint": 0
+    },
+    "PausedStateException": {
+        "Name": 0,
+        "ExceptionText": 0
+    },
+    "PhysicsSettings": {
+        "Name": 0,
+        "AllowSleep": 0,
+        "AreAnchorsShown": 0,
+        "AreAssembliesShown": 0,
+        "AreAwakePartsHighlighted": 0,
+        "AreBodyTypesShown": 0,
+        "AreContactIslandsShown": 0,
+        "AreContactPointsShown": 0,
+        "AreJointCoordinatesShown": 0,
+        "AreMechanismsShown": 0,
+        "AreModelCoordsShown": 0,
+        "AreOwnersShown": 0,
+        "ArePartCoordsShown": 0,
+        "AreRegionsShown": 0,
+        "AreTerrainReplicationRegionsShown": 0,
+        "AreTimestepsShown": 0,
+        "AreUnalignedPartsShown": 0,
+        "AreWorldCoordsShown": 0,
+        "DisableCSGv2": 0,
+        "ForceCSGv2": 0,
+        "IsInterpolationThrottleShown": 0,
+        "IsReceiveAgeShown": 0,
+        "IsTreeShown": 0,
+        "PhysicsEnvironmentalThrottle": 0,
+        "ShowDecompositionGeometry": 0,
+        "ThrottleAdjustTime": 0,
+        "UseCSGv2": 0
+    },
+    "Player": {
+        "Name": 0,
+        "AccountAge": 0,
+        "AppearanceDidLoad": 0,
+        "AutoJumpEnabled": 0,
+        "CameraMaxZoomDistance": 0,
+        "CameraMinZoomDistance": 0,
+        "CameraMode": 0,
+        "CanLoadCharacterAppearance": 0,
+        "Character": 0,
+        "CharacterAppearance": 0,
+        "CharacterAppearanceId": 0,
+        "ChatMode": 0,
+        "DataComplexity": 0,
+        "DataComplexityLimit": 0,
+        "DataReady": 0,
+        "DevCameraOcclusionMode": 0,
+        "DevComputerCameraMode": 0,
+        "DevComputerMovementMode": 0,
+        "DevEnableMouseLock": 0,
+        "DevTouchCameraMode": 0,
+        "DevTouchMovementMode": 0,
+        "DisplayName": 0,
+        "FollowUserId": 0,
+        "GameplayPaused": 0,
+        "Guest": 0,
+        "HealthDisplayDistance": 0,
+        "LocaleId": 0,
+        "MaximumSimulationRadius": 0,
+        "MembershipType": 0,
+        "NameDisplayDistance": 0,
+        "Neutral": 0,
+        "OsPlatform": 0,
+        "PlatformName": 0,
+        "ReplicationFocus": 0,
+        "RespawnLocation": 0,
+        "SimulationRadius": 0,
+        "Team": 0,
+        "TeamColor": 0,
+        "Teleported": 0,
+        "TeleportedIn": 0,
+        "UserId": 0,
+        "VRDevice": 0
+    },
+    "PlayerScripts": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "Players": {
+        "Name": 0,
+        "BubbleChat": 0,
+        "CharacterAutoLoads": 0,
+        "ClassicChat": 0,
+        "LocalPlayer": 0,
+        "MaxPlayers": 0,
+        "MaxPlayersInternal": 0,
+        "NumPlayers": 0,
+        "PreferredPlayers": 0,
+        "PreferredPlayersInternal": 0,
+        "RespawnTime": 0,
+        "localPlayer": 0,
+        "numPlayers": 0
+    },
+    "Plugin": {
+        "Name": 0,
+        "CollisionEnabled": 0,
+        "GridSize": 0,
+        "HostDataModelType": 0,
+        "HostDataModelTypeIsCurrent": 0,
+        "MultipleDocumentInterfaceInstance": 0,
+        "UsesAssetInsertionDrag": 0
+    },
+    "PluginAction": {
+        "Name": 0,
+        "ActionId": 0,
+        "AllowBinding": 0,
+        "Checked": 0,
+        "DefaultShortcut": 0,
+        "Enabled": 0,
+        "StatusTip": 0,
+        "Text": 0
+    },
+    "PluginDragEvent": {
+        "Name": 0,
+        "Data": 0,
+        "MimeType": 0,
+        "Position": 0,
+        "Sender": 0
+    },
+    "PluginManager": {
+        "Name": 0
+    },
+    "PluginManagerInterface": {
+        "Name": 0
+    },
+    "PluginMenu": {
+        "Name": 0,
+        "Icon": 0,
+        "Title": 0
+    },
+    "PluginToolbar": {
+        "Name": 0
+    },
+    "PluginToolbarButton": {
+        "Name": 0,
+        "ClickableWhenViewportHidden": 0,
+        "Enabled": 0,
+        "Icon": 0
+    },
+    "PoseBase": {
+        "Name": 0,
+        "EasingDirection": 0,
+        "EasingStyle": 0,
+        "Weight": 0
+    },
+    "NumberPose": {
+        "Name": 0,
+        "Value": 0
+    },
+    "Pose": {
+        "Name": 0,
+        "CFrame": 0,
+        "MaskWeight": 0
+    },
+    "PostEffect": {
+        "Name": 0,
+        "Enabled": 0
+    },
+    "BloomEffect": {
+        "Name": 0,
+        "Intensity": 0,
+        "Size": 0,
+        "Threshold": 0
+    },
+    "BlurEffect": {
+        "Name": 0,
+        "Size": 0
+    },
+    "ColorCorrectionEffect": {
+        "Name": 0,
+        "Brightness": 0,
+        "Contrast": 0,
+        "Saturation": 0,
+        "TintColor": 0
+    },
+    "DepthOfFieldEffect": {
+        "Name": 0,
+        "FarIntensity": 0,
+        "FocusDistance": 0,
+        "InFocusRadius": 0,
+        "NearIntensity": 0
+    },
+    "SunRaysEffect": {
+        "Name": 0,
+        "Intensity": 0,
+        "Spread": 0
+    },
+    "ProximityPrompt": {
+        "Name": 0,
+        "ActionText": 0,
+        "AutoLocalize": 0,
+        "ClickablePrompt": 0,
+        "Enabled": 0,
+        "Exclusivity": 0,
+        "GamepadKeyCode": 0,
+        "HoldDuration": 0,
+        "KeyboardKeyCode": 0,
+        "MaxActivationDistance": 0,
+        "ObjectText": 0,
+        "RequiresLineOfSight": 0,
+        "RootLocalizationTable": 0,
+        "Style": 0,
+        "UIOffset": 0
+    },
+    "ReflectionMetadata": {
+        "Name": 0
+    },
+    "ReflectionMetadataCallbacks": {
+        "Name": 0
+    },
+    "ReflectionMetadataClasses": {
+        "Name": 0
+    },
+    "ReflectionMetadataEnums": {
+        "Name": 0
+    },
+    "ReflectionMetadataEvents": {
+        "Name": 0
+    },
+    "ReflectionMetadataFunctions": {
+        "Name": 0
+    },
+    "ReflectionMetadataItem": {
+        "Name": 0,
+        "Browsable": 0,
+        "ClassCategory": 0,
+        "ClientOnly": 0,
+        "Constraint": 0,
+        "Deprecated": 0,
+        "EditingDisabled": 0,
+        "EditorType": 0,
+        "FFlag": 0,
+        "IsBackend": 0,
+        "PropertyOrder": 0,
+        "ScriptContext": 0,
+        "ServerOnly": 0,
+        "UIMaximum": 0,
+        "UIMinimum": 0,
+        "UINumTicks": 0
+    },
+    "ReflectionMetadataClass": {
+        "Name": 0,
+        "ExplorerImageIndex": 0,
+        "ExplorerOrder": 0,
+        "Insertable": 0,
+        "PreferredParent": 0
+    },
+    "ReflectionMetadataEnum": {
+        "Name": 0
+    },
+    "ReflectionMetadataEnumItem": {
+        "Name": 0
+    },
+    "ReflectionMetadataMember": {
+        "Name": 0
+    },
+    "ReflectionMetadataProperties": {
+        "Name": 0
+    },
+    "ReflectionMetadataYieldFunctions": {
+        "Name": 0
+    },
+    "RemoteDebuggerServer": {
+        "Name": 0
+    },
+    "RemoteEvent": {
+        "Name": 0
+    },
+    "RemoteFunction": {
+        "Name": 0
+    },
+    "RenderSettings": {
+        "Name": 0,
+        "AutoFRMLevel": 0,
+        "EagerBulkExecution": 0,
+        "EditQualityLevel": 0,
+        "EnableFRM": 0,
+        "ExportMergeByMaterial": 0,
+        "FrameRateManager": 0,
+        "GraphicsMode": 0,
+        "MeshCacheSize": 0,
+        "MeshPartDetailLevel": 0,
+        "QualityLevel": 0,
+        "ReloadAssets": 0,
+        "RenderCSGTrianglesDebug": 0,
+        "ShowBoundingBoxes": 0
+    },
+    "RenderingTest": {
+        "Name": 0,
+        "CFrame": 0,
+        "ComparisonDiffThreshold": 0,
+        "ComparisonMethod": 0,
+        "ComparisonPsnrThreshold": 0,
+        "Description": 0,
+        "FieldOfView": 0,
+        "Orientation": 0,
+        "Position": 0,
+        "QualityLevel": 0,
+        "ShouldSkip": 0,
+        "Ticket": 0
+    },
+    "ReplicatedFirst": {
+        "Name": 0
+    },
+    "ReplicatedStorage": {
+        "Name": 0
+    },
+    "RobloxReplicatedStorage": {
+        "Name": 0
+    },
+    "RotationCurve": {
+        "Name": 0,
+        "Length": 0
+    },
+    "ScriptCloneWatcher": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "ScriptCloneWatcherHelper": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "ScriptContext": {
+        "Name": 0,
+        "ScriptsDisabled": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "ScriptDebugger": {
+        "Name": 0,
+        "CurrentLine": 0,
+        "IsDebugging": 0,
+        "IsPaused": 0,
+        "Script": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "Selection": {
+        "Name": 0,
+        "ActiveInstance": 0,
+        "SelectionThickness": 0
+    },
+    "ServerStorage": {
+        "Name": 0
+    },
+    "DataModel": {
+        "Name": 0,
+        "CreatorId": 0,
+        "CreatorType": 0,
+        "GameId": 0,
+        "GearGenreSetting": 0,
+        "Genre": 0,
+        "IsSFFlagsLoaded": 0,
+        "JobId": 0,
+        "PlaceId": 0,
+        "PlaceVersion": 0,
+        "PrivateServerId": 0,
+        "PrivateServerOwnerId": 0,
+        "VIPServerId": 0,
+        "VIPServerOwnerId": 0,
+        "Workspace": 0,
+        "lighting": 0,
+        "workspace": 0
+    },
+    "GenericSettings": {
+        "Name": 0
+    },
+    "AnalysticsSettings": {
+        "Name": 0
+    },
+    "GlobalSettings": {
+        "Name": 0
+    },
+    "UserSettings": {
+        "Name": 0
+    },
+    "Sky": {
+        "Name": 0,
+        "CelestialBodiesShown": 0,
+        "MoonAngularSize": 0,
+        "MoonTextureId": 0,
+        "SkyboxBk": 0,
+        "SkyboxDn": 0,
+        "SkyboxFt": 0,
+        "SkyboxLf": 0,
+        "SkyboxRt": 0,
+        "SkyboxUp": 0,
+        "StarCount": 0,
+        "SunAngularSize": 0,
+        "SunTextureId": 0
+    },
+    "Smoke": {
+        "Name": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "Opacity": 0,
+        "RiseVelocity": 0,
+        "Size": 0,
+        "TimeScale": 0
+    },
+    "Sound": {
+        "Name": 0,
+        "ChannelCount": 0,
+        "EmitterSize": 0,
+        "IsLoaded": 0,
+        "IsPaused": 0,
+        "IsPlaying": 0,
+        "Looped": 0,
+        "MaxDistance": 0,
+        "MinDistance": 0,
+        "Pitch": 0,
+        "PlayOnRemove": 0,
+        "PlaybackLoudness": 0,
+        "PlaybackSpeed": 0,
+        "Playing": 0,
+        "RollOffMaxDistance": 0,
+        "RollOffMinDistance": 0,
+        "RollOffMode": 0,
+        "SoundGroup": 0,
+        "SoundId": 0,
+        "TimeLength": 0,
+        "TimePosition": 0,
+        "UsageContextPermission": 0,
+        "Volume": 0,
+        "isPlaying": 0
+    },
+    "SoundEffect": {
+        "Name": 0,
+        "Enabled": 0,
+        "Priority": 0
+    },
+    "ChorusSoundEffect": {
+        "Name": 0,
+        "Depth": 0,
+        "Mix": 0,
+        "Rate": 0
+    },
+    "CompressorSoundEffect": {
+        "Name": 0,
+        "Attack": 0,
+        "GainMakeup": 0,
+        "Ratio": 0,
+        "Release": 0,
+        "SideChain": 0,
+        "Threshold": 0
+    },
+    "CustomDspSoundEffect": {
+        "Name": 0
+    },
+    "ChannelSelectorSoundEffect": {
+        "Name": 0,
+        "Channel": 0
+    },
+    "DistortionSoundEffect": {
+        "Name": 0,
+        "Level": 0
+    },
+    "EchoSoundEffect": {
+        "Name": 0,
+        "Delay": 0,
+        "DryLevel": 0,
+        "Feedback": 0,
+        "WetLevel": 0
+    },
+    "EqualizerSoundEffect": {
+        "Name": 0,
+        "HighGain": 0,
+        "LowGain": 0,
+        "MidGain": 0
+    },
+    "FlangeSoundEffect": {
+        "Name": 0,
+        "Depth": 0,
+        "Mix": 0,
+        "Rate": 0
+    },
+    "PitchShiftSoundEffect": {
+        "Name": 0,
+        "Octave": 0
+    },
+    "ReverbSoundEffect": {
+        "Name": 0,
+        "DecayTime": 0,
+        "Density": 0,
+        "Diffusion": 0,
+        "DryLevel": 0,
+        "WetLevel": 0
+    },
+    "TremoloSoundEffect": {
+        "Name": 0,
+        "Depth": 0,
+        "Duty": 0,
+        "Frequency": 0
+    },
+    "SoundGroup": {
+        "Name": 0,
+        "Volume": 0
+    },
+    "Sparkles": {
+        "Name": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "SparkleColor": 0,
+        "TimeScale": 0
+    },
+    "Speaker": {
+        "Name": 0,
+        "ChannelCount": 0,
+        "PlaybackLoudness": 0,
+        "RollOffMaxDistance": 0,
+        "RollOffMinDistance": 0,
+        "RollOffMode": 0,
+        "SoundGroup": 0,
+        "Source": 0,
+        "Volume": 0
+    },
+    "StackFrame": {
+        "Name": 0,
+        "FrameId": 0,
+        "FrameName": 0,
+        "FrameType": 0,
+        "Globals": 0,
+        "Line": 0,
+        "Locals": 0,
+        "Populated": 0,
+        "Script": 0,
+        "Upvalues": 0
+    },
+    "StandalonePluginScripts": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "StarterGear": {
+        "Name": 0
+    },
+    "StarterPack": {
+        "Name": 0
+    },
+    "StarterPlayer": {
+        "Name": 0,
+        "AllowCustomAnimations": 0,
+        "AutoJumpEnabled": 0,
+        "CameraMaxZoomDistance": 0,
+        "CameraMinZoomDistance": 0,
+        "CameraMode": 0,
+        "CharacterJumpHeight": 0,
+        "CharacterJumpPower": 0,
+        "CharacterMaxSlopeAngle": 0,
+        "CharacterUseJumpPower": 0,
+        "CharacterWalkSpeed": 0,
+        "DevCameraOcclusionMode": 0,
+        "DevComputerCameraMovementMode": 0,
+        "DevComputerMovementMode": 0,
+        "DevTouchCameraMovementMode": 0,
+        "DevTouchMovementMode": 0,
+        "EnableMouseLockOption": 0,
+        "GameSettingsAssetIDFace": 0,
+        "GameSettingsAssetIDHead": 0,
+        "GameSettingsAssetIDLeftArm": 0,
+        "GameSettingsAssetIDLeftLeg": 0,
+        "GameSettingsAssetIDPants": 0,
+        "GameSettingsAssetIDRightArm": 0,
+        "GameSettingsAssetIDRightLeg": 0,
+        "GameSettingsAssetIDShirt": 0,
+        "GameSettingsAssetIDTeeShirt": 0,
+        "GameSettingsAssetIDTorso": 0,
+        "GameSettingsAvatar": 0,
+        "GameSettingsR15Collision": 0,
+        "GameSettingsScaleRangeBodyType": 0,
+        "GameSettingsScaleRangeHead": 0,
+        "GameSettingsScaleRangeHeight": 0,
+        "GameSettingsScaleRangeProportion": 0,
+        "GameSettingsScaleRangeWidth": 0,
+        "HealthDisplayDistance": 0,
+        "LoadCharacterAppearance": 0,
+        "LoadCharacterLayeredClothing ": 0,
+        "NameDisplayDistance": 0,
+        "UserEmotesEnabled": 0
+    },
+    "StarterPlayerScripts": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "StarterCharacterScripts": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "Stats": {
+        "Name": 0,
+        "ContactsCount": 0,
+        "DataReceiveKbps": 0,
+        "DataSendKbps": 0,
+        "HeartbeatTimeMs": 0,
+        "InstanceCount": 0,
+        "MovingPrimitivesCount": 0,
+        "PhysicsReceiveKbps": 0,
+        "PhysicsSendKbps": 0,
+        "PhysicsStepTimeMs": 0,
+        "PrimitivesCount": 0
+    },
+    "StatsItem": {
+        "Name": 0,
+        "DisplayName": 0
+    },
+    "RunningAverageItemDouble": {
+        "Name": 0
+    },
+    "RunningAverageItemInt": {
+        "Name": 0
+    },
+    "RunningAverageTimeIntervalItem": {
+        "Name": 0
+    },
+    "TotalCountTimeIntervalItem": {
+        "Name": 0
+    },
+    "StopWatchReporter": {
+        "Name": 0
+    },
+    "StudioData": {
+        "Name": 0,
+        "EnableScriptCollabByDefaultOnLoad": 0,
+        "EnableTeamCreateStreamingOnLoad": 0,
+        "SrcPlaceId": 0,
+        "SrcUniverseId": 0
+    },
+    "StudioScriptDebugEventListener": {
+        "Name": 0,
+        "Disabled": 0,
+        "LinkedSource": 0
+    },
+    "StudioTheme": {
+        "Name": 0
+    },
+    "SurfaceAppearance": {
+        "Name": 0,
+        "AlphaMode": 0,
+        "ColorMap": 0,
+        "MetalnessMap": 0,
+        "NormalMap": 0,
+        "RoughnessMap": 0,
+        "TexturePack": 0
+    },
+    "TaskScheduler": {
+        "Name": 0,
+        "SchedulerDutyCycle": 0,
+        "SchedulerRate": 0,
+        "ThreadPoolConfig": 0,
+        "ThreadPoolSize": 0
+    },
+    "Team": {
+        "Name": 0,
+        "AutoAssignable": 0,
+        "AutoColorCharacters": 0,
+        "ChildOrder": 0,
+        "Score": 0,
+        "TeamColor": 0
+    },
+    "Teams": {
+        "Name": 0
+    },
+    "TeleportAsyncResult": {
+        "Name": 0,
+        "PrivateServerId": 0,
+        "ReservedServerAccessCode": 0
+    },
+    "TeleportOptions": {
+        "Name": 0,
+        "ReservedServerAccessCode": 0,
+        "ServerInstanceId": 0,
+        "ShouldReserveServer": 0
+    },
+    "TerrainRegion": {
+        "Name": 0,
+        "IsSmooth": 0,
+        "SizeInCells": 0
+    },
+    "TextChannel": {
+        "Name": 0
+    },
+    "TextChatCommand": {
+        "Name": 0,
+        "Enabled": 0,
+        "PrimaryAlias": 0,
+        "SecondaryAlias": 0
+    },
+    "TextChatConfigurations": {
+        "Name": 0
+    },
+    "ChatInputBarConfiguration": {
+        "Name": 0,
+        "Enabled": 0,
+        "TargetTextChannel": 0
+    },
+    "ChatWindowConfiguration": {
+        "Name": 0,
+        "Enabled": 0
+    },
+    "TextChatMessage": {
+        "Name": 0,
+        "MessageId": 0,
+        "Metadata": 0,
+        "PrefixText": 0,
+        "Status": 0,
+        "Text": 0,
+        "TextChannel": 0,
+        "TextSource": 0,
+        "Timestamp": 0
+    },
+    "TextChatMessageProperties": {
+        "Name": 0,
+        "PrefixText": 0,
+        "Text": 0
+    },
+    "TextFilterResult": {
+        "Name": 0
+    },
+    "TextSource": {
+        "Name": 0,
+        "CanSend": 0,
+        "UserId": 0
+    },
+    "ThreadState": {
+        "Name": 0,
+        "FrameCount": 0,
+        "Populated": 0,
+        "ThreadId": 0,
+        "ThreadName": 0
+    },
+    "TouchTransmitter": {
+        "Name": 0
+    },
+    "Trail": {
+        "Name": 0,
+        "Attachment0": 0,
+        "Attachment1": 0,
+        "Brightness": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "FaceCamera": 0,
+        "Lifetime": 0,
+        "LightEmission": 0,
+        "LightInfluence": 0,
+        "MaxLength": 0,
+        "MinLength": 0,
+        "Texture": 0,
+        "TextureLength": 0,
+        "TextureMode": 0,
+        "Transparency": 0,
+        "WidthScale": 0
+    },
+    "Translator": {
+        "Name": 0,
+        "LocaleId": 0
+    },
+    "TweenBase": {
+        "Name": 0,
+        "PlaybackState": 0
+    },
+    "Tween": {
+        "Name": 0,
+        "Instance": 0,
+        "TweenInfo": 0
+    },
+    "UIBase": {
+        "Name": 0
+    },
+    "UIComponent": {
+        "Name": 0
+    },
+    "UIConstraint": {
+        "Name": 0
+    },
+    "UIAspectRatioConstraint": {
+        "Name": 0,
+        "AspectRatio": 0,
+        "AspectType": 0,
+        "DominantAxis": 0
+    },
+    "UISizeConstraint": {
+        "Name": 0,
+        "MaxSize": 0,
+        "MinSize": 0
+    },
+    "UITextSizeConstraint": {
+        "Name": 0,
+        "MaxTextSize": 0,
+        "MinTextSize": 0
+    },
+    "UICorner": {
+        "Name": 0,
+        "CornerRadius": 0
+    },
+    "UIGradient": {
+        "Name": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "Offset": 0,
+        "Rotation": 0,
+        "Transparency": 0
+    },
+    "UILayout": {
+        "Name": 0
+    },
+    "UIGridStyleLayout": {
+        "Name": 0,
+        "AbsoluteContentSize": 0,
+        "FillDirection": 0,
+        "HorizontalAlignment": 0,
+        "SortOrder": 0,
+        "VerticalAlignment": 0
+    },
+    "UIGridLayout": {
+        "Name": 0,
+        "AbsoluteCellCount": 0,
+        "AbsoluteCellSize": 0,
+        "CellPadding": 0,
+        "CellSize": 0,
+        "FillDirectionMaxCells": 0,
+        "StartCorner": 0
+    },
+    "UIListLayout": {
+        "Name": 0,
+        "Padding": 0
+    },
+    "UIPageLayout": {
+        "Name": 0,
+        "Animated": 0,
+        "Circular": 0,
+        "CurrentPage": 0,
+        "EasingDirection": 0,
+        "EasingStyle": 0,
+        "GamepadInputEnabled": 0,
+        "Padding": 0,
+        "ScrollWheelInputEnabled": 0,
+        "TouchInputEnabled": 0,
+        "TweenTime": 0
+    },
+    "UITableLayout": {
+        "Name": 0,
+        "FillEmptySpaceColumns": 0,
+        "FillEmptySpaceRows": 0,
+        "MajorAxis": 0,
+        "Padding": 0
+    },
+    "UIPadding": {
+        "Name": 0,
+        "PaddingBottom": 0,
+        "PaddingLeft": 0,
+        "PaddingRight": 0,
+        "PaddingTop": 0
+    },
+    "UIScale": {
+        "Name": 0,
+        "Scale": 0
+    },
+    "UIStroke": {
+        "Name": 0,
+        "ApplyStrokeMode": 0,
+        "Color": 0,
+        "Enabled": 0,
+        "LineJoinMode": 0,
+        "Thickness": 0,
+        "Transparency": 0
+    },
+    "ValueBase": {
+        "Name": 0
+    },
+    "BinaryStringValue": {
+        "Name": 0
+    },
+    "BoolValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "BrickColorValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "CFrameValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "Color3Value": {
+        "Name": 0,
+        "Value": 0
+    },
+    "DoubleConstrainedValue": {
+        "Name": 0,
+        "ConstrainedValue": 0,
+        "MaxValue": 0,
+        "MinValue": 0,
+        "Value": 0
+    },
+    "IntConstrainedValue": {
+        "Name": 0,
+        "ConstrainedValue": 0,
+        "MaxValue": 0,
+        "MinValue": 0,
+        "Value": 0
+    },
+    "IntValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "NumberValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "ObjectValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "RayValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "StringValue": {
+        "Name": 0,
+        "Value": 0
+    },
+    "Vector3Value": {
+        "Name": 0,
+        "Value": 0
+    },
+    "Vector3Curve": {
+        "Name": 0
+    },
+    "VirtualInputManager": {
+        "Name": 0,
+        "AdditionalLuaState": 0
+    },
+    "VirtualUser": {
+        "Name": 0
+    },
+    "Visit": {
+        "Name": 0
+    },
+    "VoiceChannel": {
+        "Name": 0
+    },
+    "VoiceChatInternal": {
+        "Name": 0,
+        "VoiceChatState": 0
+    },
+    "VoiceSource": {
+        "Name": 0,
+        "UserId": 0
+    },
+    "WeldConstraint": {
+        "Name": 0,
+        "Active": 0,
+        "Enabled": 0,
+        "Part0": 0,
+        "Part1": 0
+    }
+}

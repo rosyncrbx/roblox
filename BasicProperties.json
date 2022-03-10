@@ -3112,6 +3112,10 @@
             "Category": "Enum",
             "Name": "Font"
         },
+        "FontFace": {
+            "Category": "DataType",
+            "Name": "Font"
+        },
         "FontSize": {
             "Category": "Enum",
             "Name": "FontSize"
@@ -3264,6 +3268,10 @@
         },
         "Font": {
             "Category": "Enum",
+            "Name": "Font"
+        },
+        "FontFace": {
+            "Category": "DataType",
             "Name": "Font"
         },
         "FontSize": {
@@ -3460,6 +3468,10 @@
         },
         "Font": {
             "Category": "Enum",
+            "Name": "Font"
+        },
+        "FontFace": {
+            "Category": "DataType",
             "Name": "Font"
         },
         "FontSize": {
@@ -4577,6 +4589,12 @@
             "Name": "bool"
         }
     },
+    "ImporterAnimationSettings": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "ImporterGroupSettings": {
         "Name": {
             "Category": "Primitive",
@@ -5687,6 +5705,10 @@
         "Material": {
             "Category": "Enum",
             "Name": "Material"
+        },
+        "MaterialVariant": {
+            "Category": "Primitive",
+            "Name": "string"
         },
         "Orientation": {
             "Category": "DataType",
@@ -7889,6 +7911,10 @@
         "TimePosition": {
             "Category": "Primitive",
             "Name": "double"
+        },
+        "UsageContextPermission": {
+            "Category": "Enum",
+            "Name": "UsageContext"
         },
         "Volume": {
             "Category": "Primitive",

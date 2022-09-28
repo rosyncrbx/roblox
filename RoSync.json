@@ -20,6 +20,13 @@
     "Hat": {
         "Name": 0
     },
+    "AdPortal": {
+        "Name": 0,
+        "PortalInvalidReason": 0,
+        "PortalStatus": 0,
+        "PortalType": 0,
+        "PortalVersion": 0
+    },
     "AdvancedDragger": {
         "Name": 0
     },
@@ -45,6 +52,14 @@
     "AnimationRigData": {
         "Name": 0
     },
+    "AnimationStreamTrack": {
+        "Name": 0,
+        "Animation": 0,
+        "IsPlaying": 0,
+        "Priority": 0,
+        "WeightCurrent": 0,
+        "WeightTarget": 0
+    },
     "AnimationTrack": {
         "Name": 0,
         "Animation": 0,
@@ -61,6 +76,9 @@
         "Name": 0
     },
     "AssetDeliveryProxy": {
+        "Name": 0
+    },
+    "AssetImportSession": {
         "Name": 0
     },
     "Atmosphere": {
@@ -156,6 +174,7 @@
     },
     "WrapLayer": {
         "Name": 0,
+        "AutoSkin": 0,
         "BindOffset": 0,
         "Color": 0,
         "DebugMode": 0,
@@ -274,10 +293,8 @@
         "LogMessage": 0,
         "MetaBreakpointId": 0,
         "Script": 0,
+        "Valid": 0,
         "Verified": 0
-    },
-    "BreakpointManager": {
-        "Name": 0
     },
     "Camera": {
         "Name": 0,
@@ -459,15 +476,14 @@
         "VectorVelocity": 0,
         "VelocityConstraintMode": 0
     },
+    "PlaneConstraint": {
+        "Name": 0
+    },
     "Plane": {
         "Name": 0
     },
     "RigidConstraint": {
-        "Name": 0,
-        "Broken": 0,
-        "DestructionEnabled": 0,
-        "DestructionForce": 0,
-        "DestructionTorque": 0
+        "Name": 0
     },
     "RodConstraint": {
         "Name": 0,
@@ -588,13 +604,66 @@
     "VehicleController": {
         "Name": 0
     },
+    "ControllerBase": {
+        "Name": 0,
+        "MoveSpeedFactor": 0,
+        "RigidityEnabled": 0
+    },
+    "AirController": {
+        "Name": 0,
+        "CancelAirMomentum": 0,
+        "MoveMaxForce": 0,
+        "OrientationMaxTorque": 0,
+        "OrientationSpeedFactor": 0,
+        "VectorForce": 0
+    },
+    "ClimbController": {
+        "Name": 0,
+        "AccelerationTime": 0,
+        "MoveMaxForce": 0,
+        "OrientationMaxTorque": 0,
+        "OrientationSpeedFactor": 0
+    },
+    "GroundController": {
+        "Name": 0,
+        "AccelerationLean": 0,
+        "AccelerationTime": 0,
+        "AlignSpeed": 0,
+        "AlignTorque": 0,
+        "DecelerationTime": 0,
+        "Friction": 0,
+        "FrictionWeight": 0,
+        "MaxSlopeAngle": 0,
+        "StandForce": 0,
+        "StandSpeed": 0,
+        "TurningFactor": 0
+    },
+    "SwimController": {
+        "Name": 0,
+        "AccelerationTime": 0,
+        "PitchMaxTorque": 0,
+        "PitchSpeedFactor": 0,
+        "RollMaxTorque": 0,
+        "RollSpeedFactor": 0
+    },
+    "ControllerManager": {
+        "Name": 0,
+        "ActiveController": 0,
+        "BaseMoveSpeed": 0,
+        "BaseTurnSpeed": 0,
+        "FacingDirection": 0,
+        "HipHeight": 0,
+        "MovingDirection": 0
+    },
     "CorePackages": {
         "Name": 0
     },
     "CrossDMScriptChangeListener": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "CustomEvent": {
         "Name": 0
@@ -678,6 +747,9 @@
         "ReportSoundWarnings": 0,
         "RobloxVersion": 0,
         "TickCountPreciseOverride": 0
+    },
+    "DebuggablePluginWatcher": {
+        "Name": 0
     },
     "DebuggerBreakpoint": {
         "Name": 0,
@@ -828,13 +900,18 @@
     },
     "GameSettings": {
         "Name": 0,
-        "AdditionalCoreIncludeDirs": 0,
-        "OverrideStarterScript": 0,
         "VideoCaptureEnabled": 0,
         "VideoRecording": 0
     },
     "Geometry": {
         "Name": 0
+    },
+    "GetTextBoundsParams": {
+        "Name": 0,
+        "Font": 0,
+        "Size": 0,
+        "Text": 0,
+        "Width": 0
     },
     "GlobalDataStore": {
         "Name": 0
@@ -862,6 +939,11 @@
         "Localize": 0,
         "RawRect2D": 0,
         "RootLocalizationTable": 0,
+        "SelectionBehaviorDown": 0,
+        "SelectionBehaviorLeft": 0,
+        "SelectionBehaviorRight": 0,
+        "SelectionBehaviorUp": 0,
+        "SelectionGroup": 0,
         "TotalGroupScale": 0
     },
     "GuiObject": {
@@ -887,6 +969,7 @@
         "Rotation": 0,
         "Selectable": 0,
         "SelectionImageObject": 0,
+        "SelectionOrder": 0,
         "Size": 0,
         "SizeConstraint": 0,
         "Transparency": 0,
@@ -895,7 +978,7 @@
     },
     "CanvasGroup": {
         "Name": 0,
-        "GroupColor": 0,
+        "GroupColor3": 0,
         "GroupTransparency": 0
     },
     "Frame": {
@@ -1025,7 +1108,6 @@
         "ClearTextOnFocus": 0,
         "ContentText": 0,
         "CursorPosition": 0,
-        "EnableRealtimeFilteringHints": 0,
         "Font": 0,
         "FontFace": 0,
         "FontSize": 0,
@@ -1075,6 +1157,7 @@
         "CurrentCamera": 0,
         "ImageColor3": 0,
         "ImageTransparency": 0,
+        "IsMirrored": 0,
         "LightColor": 0,
         "LightDirection": 0
     },
@@ -1125,15 +1208,22 @@
     "GuiMain": {
         "Name": 0
     },
-    "SurfaceGui": {
+    "SurfaceGuiBase": {
         "Name": 0,
         "Active": 0,
         "Adornee": 0,
+        "Face": 0
+    },
+    "AdGui": {
+        "Name": 0,
+        "AdShape": 0
+    },
+    "SurfaceGui": {
+        "Name": 0,
         "AlwaysOnTop": 0,
         "Brightness": 0,
         "CanvasSize": 0,
         "ClipsDescendants": 0,
-        "Face": 0,
         "LightInfluence": 0,
         "PixelsPerStud": 0,
         "SizingMode": 0,
@@ -1211,6 +1301,9 @@
         "Name": 0,
         "Radius": 0
     },
+    "WireframeHandleAdornment": {
+        "Name": 0
+    },
     "ParabolaAdornment": {
         "Name": 0,
         "A": 0,
@@ -1249,8 +1342,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -1335,8 +1430,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -1463,6 +1560,7 @@
         "LeftArmColor": 0,
         "LeftLeg": 0,
         "LeftLegColor": 0,
+        "MoodAnimation": 0,
         "NeckAccessory": 0,
         "NumberEmotesLoaded": 0,
         "Pants": 0,
@@ -1481,6 +1579,18 @@
         "WalkAnimation": 0,
         "WidthScale": 0
     },
+    "IKControl": {
+        "Name": 0,
+        "ChainRoot": 0,
+        "Enabled": 0,
+        "EndEffector": 0,
+        "Offset": 0,
+        "Pole": 0,
+        "Priority": 0,
+        "Target": 0,
+        "Type": 0,
+        "Weight": 0
+    },
     "ILegacyStudioBridge": {
         "Name": 0
     },
@@ -1496,6 +1606,9 @@
     "ImporterAnimationSettings": {
         "Name": 0
     },
+    "ImporterFacsSettings": {
+        "Name": 0
+    },
     "ImporterGroupSettings": {
         "Name": 0,
         "Anchored": 0,
@@ -1508,6 +1621,7 @@
     "ImporterMaterialSettings": {
         "Name": 0,
         "DiffuseFilePath": 0,
+        "IsPbr": 0,
         "MetalnessFilePath": 0,
         "NormalFilePath": 0,
         "RoughnessFilePath": 0
@@ -1515,10 +1629,25 @@
     "ImporterMeshSettings": {
         "Name": 0,
         "Anchored": 0,
+        "CageManifold": 0,
+        "CageMeshIntersectedPreview": 0,
+        "CageMeshNotIntersected": 0,
+        "CageNoOverlappingVertices": 0,
+        "CageNonManifoldPreview": 0,
+        "CageOverlappingVerticesPreview": 0,
+        "CageUVMatched": 0,
+        "CageUVMisMatchedPreview": 0,
         "Dimensions": 0,
         "DoubleSided": 0,
         "IgnoreVertexColors": 0,
-        "PolygonCount": 0
+        "IrrelevantCageModifiedPreview": 0,
+        "MeshHoleDetectedPreview": 0,
+        "MeshNoHoleDetected": 0,
+        "NoIrrelevantCageModified": 0,
+        "NoOuterCageFarExtendedFromMesh": 0,
+        "OuterCageFarExtendedFromMeshPreview": 0,
+        "PolygonCount": 0,
+        "UseImportedPivot": 0
     },
     "ImporterRootSettings": {
         "Name": 0,
@@ -1526,17 +1655,15 @@
         "FileDimensions": 0,
         "ImportAsModelAsset": 0,
         "InsertInWorkspace": 0,
+        "InsertWithScenePosition": 0,
         "InvertNegativeFaces": 0,
         "MergeMeshes": 0,
         "PolygonCount": 0,
         "RigType": 0,
         "ScaleUnit": 0,
+        "UseSceneOriginAsPivot": 0,
         "WorldForward": 0,
         "WorldUp": 0
-    },
-    "ImporterTextureSettings": {
-        "Name": 0,
-        "FilePath": 0
     },
     "IncrementalPatchBuilder": {
         "Name": 0
@@ -1548,9 +1675,6 @@
         "Position": 0,
         "UserInputState": 0,
         "UserInputType": 0
-    },
-    "InternalContainer": {
-        "Name": 0
     },
     "JointInstance": {
         "Name": 0,
@@ -1690,24 +1814,32 @@
     "CoreScript": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "Script": {
         "Name": 0,
         "Source": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "LocalScript": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "ModuleScript": {
         "Name": 0,
         "LinkedSource": 0,
         "Source": 0,
-        "Disabled": 0
+        "Disabled": 0,
+        "Enabled": 0,
+        "RunContext": 0
     },
     "MarkerCurve": {
         "Name": 0,
@@ -1717,6 +1849,7 @@
         "Name": 0,
         "BaseMaterial": 0,
         "ColorMap": 0,
+        "CustomPhysicalProperties": 0,
         "MaterialPattern": 0,
         "MetalnessMap": 0,
         "NormalMap": 0,
@@ -1751,9 +1884,13 @@
         "IsLogpoint": 0,
         "Line": 0,
         "LogMessage": 0,
-        "Script": 0
+        "Script": 0,
+        "Valid": 0
     },
     "MetaBreakpointContext": {
+        "Name": 0
+    },
+    "MetaBreakpointManager": {
         "Name": 0
     },
     "Mouse": {
@@ -1852,8 +1989,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -1919,8 +2058,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -1985,8 +2126,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2078,8 +2221,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2136,6 +2281,7 @@
     "TriangleMeshPart": {
         "Name": 0,
         "CollisionFidelity": 0,
+        "MeshSize": 0,
         "Anchored": 0,
         "AssemblyAngularVelocity": 0,
         "AssemblyCenterOfMass": 0,
@@ -2157,8 +2303,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2205,9 +2353,7 @@
         "HasJointOffset": 0,
         "HasSkinnedMesh": 0,
         "JointOffset": 0,
-        "MeshID": 0,
         "MeshId": 0,
-        "MeshSize": 0,
         "RenderFidelity": 0,
         "TextureID": 0,
         "Anchored": 0,
@@ -2231,8 +2377,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2300,8 +2448,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2372,8 +2522,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2459,18 +2611,19 @@
         "HumanoidOnlySetCollisionsOnStateChange": 0,
         "InterpolationThrottling": 0,
         "MeshPartHeadsAndAccessories": 0,
-        "PhysicsSimulationRate": 0,
         "PhysicsSteppingMethod": 0,
         "ReplicateInstanceDestroySetting": 0,
         "Retargeting": 0,
         "SignalBehavior": 0,
         "StreamOutBehavior": 0,
         "StreamingEnabled": 0,
+        "StreamingIntegrityMode": 0,
         "StreamingMinRadius": 0,
         "StreamingPauseMode": 0,
         "StreamingTargetRadius": 0,
         "Terrain": 0,
-        "TouchesUseCollisionGroups": 0
+        "TouchesUseCollisionGroups": 0,
+        "UnionsScaleNonuniformly": 0
     },
     "WorldModel": {
         "Name": 0
@@ -2542,8 +2695,10 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
         "Color": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2640,7 +2795,9 @@
         "CanTouch": 0,
         "CastShadow": 0,
         "CenterOfMass": 0,
+        "CollisionGroup": 0,
         "CollisionGroupId": 0,
+        "CurrentPhysicalProperties": 0,
         "CustomPhysicalProperties": 0,
         "Elasticity": 0,
         "Friction": 0,
@@ -2676,6 +2833,12 @@
         "TopSurface": 0,
         "TopSurfaceInput": 0,
         "Velocity": 0
+    },
+    "PatchMapping": {
+        "Name": 0,
+        "FlattenTree": 0,
+        "PatchId": 0,
+        "TargetPath": 0
     },
     "Path": {
         "Name": 0,
@@ -2783,7 +2946,9 @@
     "PlayerScripts": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "Players": {
         "Name": 0,
@@ -2943,6 +3108,7 @@
         "PropertyOrder": 0,
         "ScriptContext": 0,
         "ServerOnly": 0,
+        "SliderScaling": 0,
         "UIMaximum": 0,
         "UIMinimum": 0,
         "UINumTicks": 0
@@ -3021,21 +3187,38 @@
         "Name": 0,
         "Length": 0
     },
+    "ScreenshotHud": {
+        "Name": 0,
+        "CameraButtonIcon": 0,
+        "CameraButtonPosition": 0,
+        "CloseButtonPosition": 0,
+        "CloseWhenScreenshotTaken": 0,
+        "ExperienceNameOverlayEnabled": 0,
+        "OverlayFont": 0,
+        "UsernameOverlayEnabled": 0,
+        "Visible": 0
+    },
     "ScriptCloneWatcher": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "ScriptCloneWatcherHelper": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "ScriptContext": {
         "Name": 0,
         "ScriptsDisabled": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "ScriptDebugger": {
         "Name": 0,
@@ -3044,7 +3227,16 @@
         "IsPaused": 0,
         "Script": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
+    },
+    "ScriptDocument": {
+        "Name": 0,
+        "Disabled": 0,
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "Selection": {
         "Name": 0,
@@ -3140,6 +3332,9 @@
         "Enabled": 0,
         "Priority": 0
     },
+    "AssetSoundEffect": {
+        "Name": 0
+    },
     "ChorusSoundEffect": {
         "Name": 0,
         "Depth": 0,
@@ -3155,7 +3350,7 @@
         "SideChain": 0,
         "Threshold": 0
     },
-    "CustomDspSoundEffect": {
+    "CustomSoundEffect": {
         "Name": 0
     },
     "ChannelSelectorSoundEffect": {
@@ -3240,7 +3435,9 @@
     "StandalonePluginScripts": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "StarterGear": {
         "Name": 0
@@ -3265,6 +3462,7 @@
         "DevComputerMovementMode": 0,
         "DevTouchCameraMovementMode": 0,
         "DevTouchMovementMode": 0,
+        "EnableDynamicHeads": 0,
         "EnableMouseLockOption": 0,
         "GameSettingsAssetIDFace": 0,
         "GameSettingsAssetIDHead": 0,
@@ -3292,12 +3490,16 @@
     "StarterPlayerScripts": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "StarterCharacterScripts": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "Stats": {
         "Name": 0,
@@ -3334,14 +3536,15 @@
     "StudioData": {
         "Name": 0,
         "EnableScriptCollabByDefaultOnLoad": 0,
-        "EnableTeamCreateStreamingOnLoad": 0,
         "SrcPlaceId": 0,
         "SrcUniverseId": 0
     },
     "StudioScriptDebugEventListener": {
         "Name": 0,
         "Disabled": 0,
-        "LinkedSource": 0
+        "Enabled": 0,
+        "LinkedSource": 0,
+        "RunContext": 0
     },
     "StudioTheme": {
         "Name": 0
@@ -3384,6 +3587,16 @@
         "ServerInstanceId": 0,
         "ShouldReserveServer": 0
     },
+    "TerrainDetail": {
+        "Name": 0,
+        "ColorMap": 0,
+        "Face": 0,
+        "MaterialPattern": 0,
+        "MetalnessMap": 0,
+        "NormalMap": 0,
+        "RoughnessMap": 0,
+        "StudsPerTile": 0
+    },
     "TerrainRegion": {
         "Name": 0,
         "IsSmooth": 0,
@@ -3401,13 +3614,36 @@
     "TextChatConfigurations": {
         "Name": 0
     },
+    "BubbleChatConfiguration": {
+        "Name": 0,
+        "AdorneeName": 0,
+        "BackgroundColor3": 0,
+        "BubbleDuration": 0,
+        "BubblesSpacing": 0,
+        "Enabled": 0,
+        "Font": 0,
+        "LocalPlayerStudsOffset": 0,
+        "MaxDistance": 0,
+        "MinimizeDistance": 0,
+        "TextColor3": 0,
+        "TextSize": 0,
+        "VerticalStudsOffset": 0
+    },
     "ChatInputBarConfiguration": {
         "Name": 0,
+        "AbsolutePosition": 0,
+        "AbsolutePositionWrite": 0,
+        "AbsoluteSize": 0,
+        "AbsoluteSizeWrite": 0,
         "Enabled": 0,
         "TargetTextChannel": 0
     },
     "ChatWindowConfiguration": {
         "Name": 0,
+        "AbsolutePosition": 0,
+        "AbsolutePositionWrite": 0,
+        "AbsoluteSize": 0,
+        "AbsoluteSizeWrite": 0,
         "Enabled": 0
     },
     "TextChatMessage": {
@@ -3442,6 +3678,15 @@
         "ThreadName": 0
     },
     "TouchTransmitter": {
+        "Name": 0
+    },
+    "TrackerLodController": {
+        "Name": 0,
+        "AudioMode": 0,
+        "VideoLodMode": 0,
+        "VideoMode": 0
+    },
+    "TrackerStreamAnimation": {
         "Name": 0
     },
     "Trail": {

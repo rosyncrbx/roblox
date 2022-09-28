@@ -17,12 +17,6 @@
             "Name": "bool"
         }
     },
-    "ABTestService": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
-        }
-    },
     "Accoutrement": {
         "Name": {
             "Category": "Primitive",
@@ -63,6 +57,28 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        }
+    },
+    "AdPortal": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "PortalInvalidReason": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "PortalStatus": {
+            "Category": "Enum",
+            "Name": "AdPortalStatus"
+        },
+        "PortalType": {
+            "Category": "Enum",
+            "Name": "AdPortalType"
+        },
+        "PortalVersion": {
+            "Category": "Primitive",
+            "Name": "int64"
         }
     },
     "AdService": {
@@ -157,6 +173,32 @@
             "Name": "string"
         }
     },
+    "AnimationStreamTrack": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Animation": {
+            "Category": "Class",
+            "Name": "TrackerStreamAnimation"
+        },
+        "IsPlaying": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "Priority": {
+            "Category": "Enum",
+            "Name": "AnimationPriority"
+        },
+        "WeightCurrent": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "WeightTarget": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
     "AnimationTrack": {
         "Name": {
             "Category": "Primitive",
@@ -224,6 +266,12 @@
         }
     },
     "AssetImportService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "AssetImportSession": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -553,6 +601,10 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "AutoSkin": {
+            "Category": "Enum",
+            "Name": "WrapLayerAutoSkin"
         },
         "BindOffset": {
             "Category": "DataType",
@@ -948,15 +1000,13 @@
             "Category": "Primitive",
             "Name": "string"
         },
+        "Valid": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "Verified": {
             "Category": "Primitive",
             "Name": "bool"
-        }
-    },
-    "BreakpointManager": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
         }
     },
     "BrowserService": {
@@ -1631,6 +1681,12 @@
             "Name": "VelocityConstraintMode"
         }
     },
+    "PlaneConstraint": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "Plane": {
         "Name": {
             "Category": "Primitive",
@@ -1641,22 +1697,6 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
-        },
-        "Broken": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
-        "DestructionEnabled": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
-        "DestructionForce": {
-            "Category": "Primitive",
-            "Name": "float"
-        },
-        "DestructionTorque": {
-            "Category": "Primitive",
-            "Name": "float"
         }
     },
     "RodConstraint": {
@@ -2071,6 +2111,174 @@
             "Name": "string"
         }
     },
+    "ControllerBase": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "MoveSpeedFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "RigidityEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        }
+    },
+    "AirController": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "CancelAirMomentum": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "MoveMaxForce": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "OrientationMaxTorque": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "OrientationSpeedFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "VectorForce": {
+            "Category": "DataType",
+            "Name": "Vector3"
+        }
+    },
+    "ClimbController": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AccelerationTime": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "MoveMaxForce": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "OrientationMaxTorque": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "OrientationSpeedFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
+    "GroundController": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AccelerationLean": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "AccelerationTime": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "AlignSpeed": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "AlignTorque": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "DecelerationTime": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "Friction": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "FrictionWeight": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "MaxSlopeAngle": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "StandForce": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "StandSpeed": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "TurningFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
+    "SwimController": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AccelerationTime": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "PitchMaxTorque": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "PitchSpeedFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "RollMaxTorque": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "RollSpeedFactor": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
+    "ControllerManager": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "ActiveController": {
+            "Category": "Class",
+            "Name": "ControllerBase"
+        },
+        "BaseMoveSpeed": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "BaseTurnSpeed": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "FacingDirection": {
+            "Category": "DataType",
+            "Name": "Vector3"
+        },
+        "HipHeight": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "MovingDirection": {
+            "Category": "DataType",
+            "Name": "Vector3"
+        }
+    },
     "ControllerService": {
         "Name": {
             "Category": "Primitive",
@@ -2345,6 +2553,12 @@
             "Name": "TickCountSampleMethod"
         }
     },
+    "DebuggablePluginWatcher": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "DebuggerBreakpoint": {
         "Name": {
             "Category": "Primitive",
@@ -2487,6 +2701,12 @@
             "Name": "string"
         },
         "Expression": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "DeviceIdService": {
+        "Name": {
             "Category": "Primitive",
             "Name": "string"
         }
@@ -2687,6 +2907,24 @@
             "Name": "float"
         },
         "Visible": {
+            "Category": "Primitive",
+            "Name": "bool"
+        }
+    },
+    "FaceAnimatorService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AudioAnimationEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "FlipHeadOrientation": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "VideoAnimationEnabled": {
             "Category": "Primitive",
             "Name": "bool"
         }
@@ -2963,6 +3201,30 @@
             "Name": "float"
         }
     },
+    "FacialAnimationRecordingService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "BiometricDataConsent": {
+            "Category": "Primitive",
+            "Name": "bool"
+        }
+    },
+    "FacialAnimationStreamingService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "EnableFlags": {
+            "Category": "Enum",
+            "Name": "FacialAnimationFlags"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        }
+    },
     "Feature": {
         "Name": {
             "Category": "Primitive",
@@ -3118,14 +3380,6 @@
             "Category": "Primitive",
             "Name": "string"
         },
-        "AdditionalCoreIncludeDirs": {
-            "Category": "Primitive",
-            "Name": "string"
-        },
-        "OverrideStarterScript": {
-            "Category": "Primitive",
-            "Name": "string"
-        },
         "VideoCaptureEnabled": {
             "Category": "Primitive",
             "Name": "bool"
@@ -3149,6 +3403,28 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        }
+    },
+    "GetTextBoundsParams": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Font": {
+            "Category": "DataType",
+            "Name": "Font"
+        },
+        "Size": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "Text": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Width": {
+            "Category": "Primitive",
+            "Name": "float"
         }
     },
     "GlobalDataStore": {
@@ -3227,6 +3503,26 @@
         "RootLocalizationTable": {
             "Category": "Class",
             "Name": "LocalizationTable"
+        },
+        "SelectionBehaviorDown": {
+            "Category": "Enum",
+            "Name": "SelectionBehavior"
+        },
+        "SelectionBehaviorLeft": {
+            "Category": "Enum",
+            "Name": "SelectionBehavior"
+        },
+        "SelectionBehaviorRight": {
+            "Category": "Enum",
+            "Name": "SelectionBehavior"
+        },
+        "SelectionBehaviorUp": {
+            "Category": "Enum",
+            "Name": "SelectionBehavior"
+        },
+        "SelectionGroup": {
+            "Category": "Primitive",
+            "Name": "bool"
         },
         "TotalGroupScale": {
             "Category": "Primitive",
@@ -3322,6 +3618,10 @@
             "Category": "Class",
             "Name": "GuiObject"
         },
+        "SelectionOrder": {
+            "Category": "Primitive",
+            "Name": "int"
+        },
         "Size": {
             "Category": "DataType",
             "Name": "UDim2"
@@ -3348,7 +3648,7 @@
             "Category": "Primitive",
             "Name": "string"
         },
-        "GroupColor": {
+        "GroupColor3": {
             "Category": "DataType",
             "Name": "Color3"
         },
@@ -3814,10 +4114,6 @@
             "Category": "Primitive",
             "Name": "int"
         },
-        "EnableRealtimeFilteringHints": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
         "Font": {
             "Category": "Enum",
             "Name": "Font"
@@ -4002,6 +4298,10 @@
             "Category": "Primitive",
             "Name": "float"
         },
+        "IsMirrored": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "LightColor": {
             "Category": "DataType",
             "Name": "Color3"
@@ -4157,7 +4457,7 @@
             "Name": "string"
         }
     },
-    "SurfaceGui": {
+    "SurfaceGuiBase": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -4169,6 +4469,26 @@
         "Adornee": {
             "Category": "Class",
             "Name": "Instance"
+        },
+        "Face": {
+            "Category": "Enum",
+            "Name": "NormalId"
+        }
+    },
+    "AdGui": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AdShape": {
+            "Category": "Enum",
+            "Name": "AdShape"
+        }
+    },
+    "SurfaceGui": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
         },
         "AlwaysOnTop": {
             "Category": "Primitive",
@@ -4185,10 +4505,6 @@
         "ClipsDescendants": {
             "Category": "Primitive",
             "Name": "bool"
-        },
-        "Face": {
-            "Category": "Enum",
-            "Name": "NormalId"
         },
         "LightInfluence": {
             "Category": "Primitive",
@@ -4421,6 +4737,12 @@
         "Radius": {
             "Category": "Primitive",
             "Name": "float"
+        }
+    },
+    "WireframeHandleAdornment": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "ParabolaAdornment": {
@@ -4926,6 +5248,10 @@
             "Category": "DataType",
             "Name": "Color3"
         },
+        "MoodAnimation": {
+            "Category": "Primitive",
+            "Name": "int64"
+        },
         "NeckAccessory": {
             "Category": "Primitive",
             "Name": "string"
@@ -4995,6 +5321,48 @@
             "Name": "float"
         }
     },
+    "IKControl": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "ChainRoot": {
+            "Category": "Class",
+            "Name": "Instance"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "EndEffector": {
+            "Category": "Class",
+            "Name": "Instance"
+        },
+        "Offset": {
+            "Category": "DataType",
+            "Name": "CFrame"
+        },
+        "Pole": {
+            "Category": "Class",
+            "Name": "Instance"
+        },
+        "Priority": {
+            "Category": "Primitive",
+            "Name": "int"
+        },
+        "Target": {
+            "Category": "Class",
+            "Name": "Instance"
+        },
+        "Type": {
+            "Category": "Enum",
+            "Name": "IKControlType"
+        },
+        "Weight": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
     "ILegacyStudioBridge": {
         "Name": {
             "Category": "Primitive",
@@ -5037,6 +5405,12 @@
             "Name": "string"
         }
     },
+    "ImporterFacsSettings": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "ImporterGroupSettings": {
         "Name": {
             "Category": "Primitive",
@@ -5070,6 +5444,10 @@
             "Category": "Primitive",
             "Name": "string"
         },
+        "IsPbr": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "MetalnessFilePath": {
             "Category": "Primitive",
             "Name": "string"
@@ -5092,6 +5470,38 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "CageManifold": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageMeshIntersectedPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageMeshNotIntersected": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageNoOverlappingVertices": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageNonManifoldPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageOverlappingVerticesPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageUVMatched": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CageUVMisMatchedPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "Dimensions": {
             "Category": "DataType",
             "Name": "Vector3"
@@ -5104,9 +5514,37 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "IrrelevantCageModifiedPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "MeshHoleDetectedPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "MeshNoHoleDetected": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "NoIrrelevantCageModified": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "NoOuterCageFarExtendedFromMesh": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "OuterCageFarExtendedFromMeshPreview": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "PolygonCount": {
             "Category": "Primitive",
             "Name": "float"
+        },
+        "UseImportedPivot": {
+            "Category": "Primitive",
+            "Name": "bool"
         }
     },
     "ImporterRootSettings": {
@@ -5130,6 +5568,10 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "InsertWithScenePosition": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "InvertNegativeFaces": {
             "Category": "Primitive",
             "Name": "bool"
@@ -5150,6 +5592,10 @@
             "Category": "Enum",
             "Name": "MeshScaleUnit"
         },
+        "UseSceneOriginAsPivot": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "WorldForward": {
             "Category": "Enum",
             "Name": "NormalId"
@@ -5157,16 +5603,6 @@
         "WorldUp": {
             "Category": "Enum",
             "Name": "NormalId"
-        }
-    },
-    "ImporterTextureSettings": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
-        },
-        "FilePath": {
-            "Category": "Primitive",
-            "Name": "string"
         }
     },
     "IncrementalPatchBuilder": {
@@ -5213,12 +5649,6 @@
         "AllowInsertFreeModels": {
             "Category": "Primitive",
             "Name": "bool"
-        }
-    },
-    "InternalContainer": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
         }
     },
     "JointInstance": {
@@ -5431,7 +5861,7 @@
             "Name": "string"
         }
     },
-    "LSPService": {
+    "LSPFileSyncService": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -5720,9 +6150,17 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "LinkedSource": {
             "Category": "DataType",
             "Name": "Content"
+        },
+        "RunContext": {
+            "Category": "Enum",
+            "Name": "RunContext"
         }
     },
     "CoreScript": {
@@ -5794,173 +6232,137 @@
             "Category": "Primitive",
             "Name": "string"
         },
-        "Brick": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "AsphaltName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Cobblestone": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "BasaltName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Concrete": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "BrickName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "CorrodedMetal": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "CobblestoneName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "DiamondPlate": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "ConcreteName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Fabric": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "CorrodedMetalName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Foil": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "CrackedLavaName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Granite": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "DiamondPlateName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Grass": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "FabricName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Ice": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "FoilName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Marble": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "GlacierName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Metal": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "GraniteName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Pebble": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "GrassName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Plastic": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "GroundName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Sand": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "IceName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "Slate": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "LeafyGrassName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "SmoothPlastic": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "LimestoneName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainAsphalt": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "MarbleName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainBasalt": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "MetalName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainBrick": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "MudName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainCobblestone": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "PavementName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainConcrete": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "PebbleName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainCrackedLava": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "PlasticName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainGlacier": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "RockName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainGrass": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SaltName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainGround": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SandName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainIce": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SandstoneName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainLeafyGrass": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SlateName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainLimestone": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SmoothPlasticName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
-        "TerrainMud": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainPavement": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainRock": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainSalt": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainSand": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainSandstone": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainSlate": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainSnow": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "TerrainWoodPlanks": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
+        "SnowName": {
+            "Category": "Primitive",
+            "Name": "string"
         },
         "Use2022Materials": {
             "Category": "Primitive",
             "Name": "bool"
         },
-        "Wood": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "WoodPlanks": {
-            "Category": "Class",
-            "Name": "MaterialVariant"
-        },
-        "hasPropertyWarningInStudio": {
+        "WoodName": {
             "Category": "Primitive",
-            "Name": "bool"
+            "Name": "string"
+        },
+        "WoodPlanksName": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "MaterialVariant": {
@@ -5975,6 +6377,10 @@
         "ColorMap": {
             "Category": "DataType",
             "Name": "Content"
+        },
+        "CustomPhysicalProperties": {
+            "Category": "DataType",
+            "Name": "PhysicalProperties"
         },
         "MaterialPattern": {
             "Category": "Enum",
@@ -6097,9 +6503,19 @@
         "Script": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "Valid": {
+            "Category": "Primitive",
+            "Name": "bool"
         }
     },
     "MetaBreakpointContext": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "MetaBreakpointManager": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -6306,6 +6722,10 @@
             "Category": "Primitive",
             "Name": "string"
         },
+        "IsConnected": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "IsLuaChatEnabled": {
             "Category": "Primitive",
             "Name": "bool"
@@ -6430,6 +6850,10 @@
             "Category": "DataType",
             "Name": "Vector3"
         },
+        "CollisionGroup": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
         "CollisionGroupId": {
             "Category": "Primitive",
             "Name": "int"
@@ -6437,6 +6861,10 @@
         "Color": {
             "Category": "DataType",
             "Name": "Color3"
+        },
+        "CurrentPhysicalProperties": {
+            "Category": "DataType",
+            "Name": "PhysicalProperties"
         },
         "CustomPhysicalProperties": {
             "Category": "DataType",
@@ -6771,6 +7199,10 @@
         "CollisionFidelity": {
             "Category": "Enum",
             "Name": "CollisionFidelity"
+        },
+        "MeshSize": {
+            "Category": "DataType",
+            "Name": "Vector3"
         }
     },
     "MeshPart": {
@@ -6794,17 +7226,9 @@
             "Category": "DataType",
             "Name": "Vector3"
         },
-        "MeshID": {
-            "Category": "DataType",
-            "Name": "Content"
-        },
         "MeshId": {
             "Category": "DataType",
             "Name": "Content"
-        },
-        "MeshSize": {
-            "Category": "DataType",
-            "Name": "Vector3"
         },
         "RenderFidelity": {
             "Category": "Enum",
@@ -7006,10 +7430,6 @@
             "Category": "Enum",
             "Name": "MeshPartHeadsAndAccessories"
         },
-        "PhysicsSimulationRate": {
-            "Category": "Enum",
-            "Name": "PhysicsSimulationRate"
-        },
         "PhysicsSteppingMethod": {
             "Category": "Enum",
             "Name": "PhysicsSteppingMethod"
@@ -7034,6 +7454,10 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "StreamingIntegrityMode": {
+            "Category": "Enum",
+            "Name": "StreamingIntegrityMode"
+        },
         "StreamingMinRadius": {
             "Category": "Primitive",
             "Name": "int"
@@ -7053,6 +7477,10 @@
         "TouchesUseCollisionGroups": {
             "Category": "Primitive",
             "Name": "bool"
+        },
+        "UnionsScaleNonuniformly": {
+            "Category": "Enum",
+            "Name": "UnionsScaleNonuniformly"
         }
     },
     "WorldModel": {
@@ -7319,6 +7747,24 @@
         "ZOffset": {
             "Category": "Primitive",
             "Name": "float"
+        }
+    },
+    "PatchMapping": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "FlattenTree": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "PatchId": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "TargetPath": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "Path": {
@@ -7895,6 +8341,12 @@
             "Name": "string"
         }
     },
+    "PluginManagementService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "PluginManager": {
         "Name": {
             "Category": "Primitive",
@@ -8292,6 +8744,10 @@
             "Category": "Primitive",
             "Name": "bool"
         },
+        "SliderScaling": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
         "UIMaximum": {
             "Category": "Primitive",
             "Name": "double"
@@ -8489,12 +8945,6 @@
             "Name": "string"
         }
     },
-    "ReplicatedScriptService": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
-        }
-    },
     "ReplicatedStorage": {
         "Name": {
             "Category": "Primitive",
@@ -8523,6 +8973,12 @@
             "Name": "int"
         }
     },
+    "RtMessagingService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "RunService": {
         "Name": {
             "Category": "Primitive",
@@ -8537,6 +8993,44 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        }
+    },
+    "ScreenshotHud": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "CameraButtonIcon": {
+            "Category": "DataType",
+            "Name": "Content"
+        },
+        "CameraButtonPosition": {
+            "Category": "DataType",
+            "Name": "UDim2"
+        },
+        "CloseButtonPosition": {
+            "Category": "DataType",
+            "Name": "UDim2"
+        },
+        "CloseWhenScreenshotTaken": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "ExperienceNameOverlayEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "OverlayFont": {
+            "Category": "Enum",
+            "Name": "Font"
+        },
+        "UsernameOverlayEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "Visible": {
+            "Category": "Primitive",
+            "Name": "bool"
         }
     },
     "ScriptChangeService": {
@@ -8587,6 +9081,18 @@
         "Script": {
             "Category": "Class",
             "Name": "Instance"
+        }
+    },
+    "ScriptDocument": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "ScriptEditorService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
         }
     },
     "ScriptRegistrationService": {
@@ -8821,6 +9327,12 @@
             "Name": "float"
         }
     },
+    "SnippetService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "SocialService": {
         "Name": {
             "Category": "Primitive",
@@ -8939,6 +9451,12 @@
             "Name": "int"
         }
     },
+    "AssetSoundEffect": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "ChorusSoundEffect": {
         "Name": {
             "Category": "Primitive",
@@ -8987,7 +9505,7 @@
             "Name": "float"
         }
     },
-    "CustomDspSoundEffect": {
+    "CustomSoundEffect": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -9159,6 +9677,10 @@
         "RolloffScale": {
             "Category": "Primitive",
             "Name": "float"
+        },
+        "VolumetricAudio": {
+            "Category": "Enum",
+            "Name": "VolumetricAudio"
         }
     },
     "Sparkles": {
@@ -9351,6 +9873,10 @@
         "DevTouchMovementMode": {
             "Category": "Enum",
             "Name": "DevTouchMovementMode"
+        },
+        "EnableDynamicHeads": {
+            "Category": "Enum",
+            "Name": "LoadDynamicHeads"
         },
         "EnableMouseLockOption": {
             "Category": "Primitive",
@@ -9636,6 +10162,10 @@
             "Category": "Primitive",
             "Name": "float"
         },
+        "Camera Pan Speed": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
         "Camera Shift Speed": {
             "Category": "Primitive",
             "Name": "float"
@@ -9792,6 +10322,10 @@
             "Category": "DataType",
             "Name": "Color3"
         },
+        "IconOverrideDir": {
+            "Category": "DataType",
+            "Name": "QDir"
+        },
         "Indent Using Spaces": {
             "Category": "Primitive",
             "Name": "bool"
@@ -9819,6 +10353,10 @@
         "Luau Keyword Color": {
             "Category": "DataType",
             "Name": "Color3"
+        },
+        "Main Volume": {
+            "Category": "Primitive",
+            "Name": "float"
         },
         "Matching Word Background Color": {
             "Category": "DataType",
@@ -9855,14 +10393,6 @@
         "Output Layout Mode": {
             "Category": "Enum",
             "Name": "OutputLayoutMode"
-        },
-        "OverrideCoreScripts": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
-        "OverrideCoreScriptsDir": {
-            "Category": "DataType",
-            "Name": "QDir"
         },
         "PermissionLevelShown": {
             "Category": "Enum",
@@ -10012,7 +10542,7 @@
             "Category": "Primitive",
             "Name": "bool"
         },
-        "Show Navigation Areas": {
+        "Show Navigation Labels": {
             "Category": "Primitive",
             "Name": "bool"
         },
@@ -10072,6 +10602,10 @@
             "Category": "Enum",
             "Name": "UITheme"
         },
+        "Use Bounding Box Move Handles": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "Warning Color": {
             "Category": "DataType",
             "Name": "Color3"
@@ -10096,10 +10630,6 @@
             "Category": "Primitive",
             "Name": "bool"
         },
-        "EnableTeamCreateStreamingOnLoad": {
-            "Category": "Primitive",
-            "Name": "bool"
-        },
         "SrcPlaceId": {
             "Category": "Primitive",
             "Name": "int64"
@@ -10113,6 +10643,22 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "HasMultiTouchStarted": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "IsMultiTouchEmulationOn": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "IsMultiTouchEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "PivotPosition": {
+            "Category": "DataType",
+            "Name": "Vector2"
         }
     },
     "StudioHighDpiService": {
@@ -10275,6 +10821,12 @@
             "Name": "BrickColor"
         }
     },
+    "TeamCreateService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "Teams": {
         "Name": {
             "Category": "Primitive",
@@ -10333,6 +10885,40 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        }
+    },
+    "TerrainDetail": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "ColorMap": {
+            "Category": "DataType",
+            "Name": "Content"
+        },
+        "Face": {
+            "Category": "Enum",
+            "Name": "TerrainFace"
+        },
+        "MaterialPattern": {
+            "Category": "Enum",
+            "Name": "MaterialPattern"
+        },
+        "MetalnessMap": {
+            "Category": "DataType",
+            "Name": "Content"
+        },
+        "NormalMap": {
+            "Category": "DataType",
+            "Name": "Content"
+        },
+        "RoughnessMap": {
+            "Category": "DataType",
+            "Name": "Content"
+        },
+        "StudsPerTile": {
+            "Category": "Primitive",
+            "Name": "float"
         }
     },
     "TerrainRegion": {
@@ -10439,10 +11025,80 @@
             "Name": "string"
         }
     },
+    "BubbleChatConfiguration": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AdorneeName": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "BackgroundColor3": {
+            "Category": "DataType",
+            "Name": "Color3"
+        },
+        "BubbleDuration": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "BubblesSpacing": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "Enabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "Font": {
+            "Category": "Enum",
+            "Name": "Font"
+        },
+        "LocalPlayerStudsOffset": {
+            "Category": "DataType",
+            "Name": "Vector3"
+        },
+        "MaxDistance": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "MinimizeDistance": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "TextColor3": {
+            "Category": "DataType",
+            "Name": "Color3"
+        },
+        "TextSize": {
+            "Category": "Primitive",
+            "Name": "int64"
+        },
+        "VerticalStudsOffset": {
+            "Category": "Primitive",
+            "Name": "float"
+        }
+    },
     "ChatInputBarConfiguration": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "AbsolutePosition": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsolutePositionWrite": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsoluteSize": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsoluteSizeWrite": {
+            "Category": "DataType",
+            "Name": "Vector2"
         },
         "Enabled": {
             "Category": "Primitive",
@@ -10457,6 +11113,22 @@
         "Name": {
             "Category": "Primitive",
             "Name": "string"
+        },
+        "AbsolutePosition": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsolutePositionWrite": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsoluteSize": {
+            "Category": "DataType",
+            "Name": "Vector2"
+        },
+        "AbsoluteSizeWrite": {
+            "Category": "DataType",
+            "Name": "Vector2"
         },
         "Enabled": {
             "Category": "Primitive",
@@ -10599,12 +11271,6 @@
             "Name": "string"
         }
     },
-    "ToolboxService": {
-        "Name": {
-            "Category": "Primitive",
-            "Name": "string"
-        }
-    },
     "TouchInputService": {
         "Name": {
             "Category": "Primitive",
@@ -10618,6 +11284,30 @@
         }
     },
     "TracerService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
+    "TrackerLodController": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "AudioMode": {
+            "Category": "Enum",
+            "Name": "TrackerLodFlagMode"
+        },
+        "VideoLodMode": {
+            "Category": "Enum",
+            "Name": "TrackerLodValueMode"
+        },
+        "VideoMode": {
+            "Category": "Enum",
+            "Name": "TrackerLodFlagMode"
+        }
+    },
+    "TrackerStreamAnimation": {
         "Name": {
             "Category": "Primitive",
             "Name": "string"
@@ -11080,6 +11770,10 @@
             "Category": "Enum",
             "Name": "ControlMode"
         },
+        "DefaultCameraID": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
         "Fullscreen": {
             "Category": "Primitive",
             "Name": "bool"
@@ -11200,6 +11894,10 @@
             "Category": "Primitive",
             "Name": "int"
         },
+        "VRSmoothRotationEnabled": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "VignetteEnabled": {
             "Category": "Primitive",
             "Name": "bool"
@@ -11314,9 +12012,21 @@
             "Category": "Primitive",
             "Name": "string"
         },
+        "DidPointerHit": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
         "GuiInputUserCFrame": {
             "Category": "Enum",
             "Name": "UserCFrame"
+        },
+        "LaserDistance": {
+            "Category": "Primitive",
+            "Name": "float"
+        },
+        "PointerHitCFrame": {
+            "Category": "DataType",
+            "Name": "CFrame"
         },
         "VRDeviceAvailable": {
             "Category": "Primitive",
@@ -11503,6 +12213,20 @@
             "Name": "bool"
         }
     },
+    "VideoCaptureService": {
+        "Name": {
+            "Category": "Primitive",
+            "Name": "string"
+        },
+        "Active": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "CameraID": {
+            "Category": "Primitive",
+            "Name": "string"
+        }
+    },
     "VirtualInputManager": {
         "Name": {
             "Category": "Primitive",
@@ -11552,7 +12276,15 @@
             "Category": "Primitive",
             "Name": "string"
         },
-        "GenerateDefaultChannel": {
+        "EnableDefaultVoice": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "VoiceChatEnabledForPlaceOnRcc": {
+            "Category": "Primitive",
+            "Name": "bool"
+        },
+        "VoiceChatEnabledForUniverseOnRcc": {
             "Category": "Primitive",
             "Name": "bool"
         }

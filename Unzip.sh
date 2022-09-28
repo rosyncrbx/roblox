@@ -1,2 +1,6 @@
 #!/bin/bash
-unzip Studio.zip Studio
+rm -rf "Studio";
+mkdir "Studio";
+cd "Studio";
+unzip "../Studio.zip";
+cd "../";
